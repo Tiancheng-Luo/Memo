@@ -150,8 +150,9 @@ https://home.cnblogs.com/u/george-guo/
 
 ## Katura
 通过 `sudo -i` 变成管理员模式 root
+https://blog.csdn.net/u012857400/article/details/78423970
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1ODQwNzMsMjEyOTI2NzQyNiwyMDc3Mz
-Y1MTAyLC0xOTcxMzA0Njg5LDIwMjI0MzU5NjAsLTE4NzExNDAz
-NTldfQ==
+eyJoaXN0b3J5IjpbLTE5OTA5MTUwOTUsNTc1ODQwNzMsMjEyOT
+I2NzQyNiwyMDc3MzY1MTAyLC0xOTcxMzA0Njg5LDIwMjI0MzU5
+NjAsLTE4NzExNDAzNTldfQ==
 -->
