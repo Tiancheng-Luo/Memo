@@ -1,3 +1,41 @@
+
+## GNU Build system
+```bash
+configure.ac: AM_GNU_GETTEXT_VERSION is used, but not AM_GNU_GETTEXT
+configure.ac:79: error: possibly undefined macro: AM_GNU_GETTEXT
+```
+GNU build system 不全面, 重装automake-1.14
+```bash
+#@安装m4
+wget  [http://mirrors.kernel.org/gnu/m4/m4-1.4.13.tar.gz](http://mirrors.kernel.org/gnu/m4/m4-1.4.13.tar.gz)  \  
+&& tar -xzvf m4-1.4.13.tar.gz \  
+&& cd m4-1.4.13 \  
+&& ./configure –prefix=/usr/local  
+make && make install
+### 安装autoconf
+
+wget  [http://mirrors.kernel.org/gnu/autoconf/autoconf-2.65.tar.gz](http://mirrors.kernel.org/gnu/autoconf/autoconf-2.65.tar.gz)  \  
+&& tar -xzvf autoconf-2.65.tar.gz \  
+&& cd autoconf-2.65 \  
+&& ./configure –prefix=/usr/local  
+make && make install
+
+### 安装automake
+
+wget  [http://mirrors.kernel.org/gnu/automake/automake-1.11.tar.gz](http://mirrors.kernel.org/gnu/automake/automake-1.11.tar.gz)  \  
+&& tar xzvf automake-1.11.tar.gz \  
+&& cd automake-1.11 \  
+&& ./configure –prefix=/usr/local  
+make && make install
+
+### 安装libtool
+
+wget  [http://mirrors.kernel.org/gnu/libtool/libtool-2.2.6b.tar.gz](http://mirrors.kernel.org/gnu/libtool/libtool-2.2.6b.tar.gz)  \  
+&& tar xzvf libtool-2.2.6b.tar.gz \  
+&& cd libtool-2.2.6b \  
+&& ./configure –prefix=/usr/local  
+make && make install
+```
 ## umask
 ```bash
 下面是另外一个例子，假设这次u m a s k值为0 2 2：
@@ -99,5 +137,5 @@ HOME=/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzExNDAzNTldfQ==
+eyJoaXN0b3J5IjpbLTYyNDY5NjMyLC0xODcxMTQwMzU5XX0=
 -->
