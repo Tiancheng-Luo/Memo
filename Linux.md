@@ -135,11 +135,13 @@ HOME=/
 
 ## Time Machine＆Nettalk
 ##  Snapper
-## Mahavairocana  
+## Mahavairocana 运维佛法
+```bash
+# 系统监控
 https://www.cnblogs.com/Mahavairocana/p/8261686.html
-
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTY3ODUzNSwtMTk3MTMwNDY4OSwyMD
+eyJoaXN0b3J5IjpbMTMxMzQyNTI2NiwtMTk3MTMwNDY4OSwyMD
 IyNDM1OTYwLC0xODcxMTQwMzU5XX0=
 -->
