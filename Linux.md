@@ -130,10 +130,12 @@ HOME=/
 ## lightpd
 ```bash
 ```
-## rsync
+## rsync rsync_snapshot
+## Time Machine＆Nettalk
+##  Snapper
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTkyNTA5NzksMjAyMjQzNTk2MCwtMT
+eyJoaXN0b3J5IjpbLTE2MzIzNjcxMTEsMjAyMjQzNTk2MCwtMT
 g3MTE0MDM1OV19
 -->
