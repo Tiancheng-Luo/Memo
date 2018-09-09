@@ -146,7 +146,12 @@ https://www.cnblogs.com/Mahavairocana/p/8261686.html
 https://home.cnblogs.com/u/george-guo/
 
 > Written with [StackEdit](https://stackedit.io/).
+
+
+## Katura
+通过 `sudo -i` 变成管理员模式 root
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTI2NzQyNiwyMDc3MzY1MTAyLC0xOT
-cxMzA0Njg5LDIwMjI0MzU5NjAsLTE4NzExNDAzNTldfQ==
+eyJoaXN0b3J5IjpbNTc1ODQwNzMsMjEyOTI2NzQyNiwyMDc3Mz
+Y1MTAyLC0xOTcxMzA0Njg5LDIwMjI0MzU5NjAsLTE4NzExNDAz
+NTldfQ==
 -->
