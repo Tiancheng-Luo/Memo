@@ -127,7 +127,7 @@ HOME=/
 ```
 ```bash
 ```
-## lightpd
+## lighttpd
 ```bash
 ```
 ## rsync rsync_snapshot
@@ -142,6 +142,6 @@ https://www.cnblogs.com/Mahavairocana/p/8261686.html
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzQyNTI2NiwtMTk3MTMwNDY4OSwyMD
+eyJoaXN0b3J5IjpbMjA3NzM2NTEwMiwtMTk3MTMwNDY4OSwyMD
 IyNDM1OTYwLC0xODcxMTQwMzU5XX0=
 -->
