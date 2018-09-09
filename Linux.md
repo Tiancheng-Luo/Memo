@@ -131,11 +131,13 @@ HOME=/
 ```bash
 ```
 ## rsync rsync_snapshot
+站点更新, 备份
+
 ## Time Machine＆Nettalk
 ##  Snapper
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzIzNjcxMTEsMjAyMjQzNTk2MCwtMT
+eyJoaXN0b3J5IjpbLTE5NzEzMDQ2ODksMjAyMjQzNTk2MCwtMT
 g3MTE0MDM1OV19
 -->
