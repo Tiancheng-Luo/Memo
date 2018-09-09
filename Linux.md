@@ -132,7 +132,9 @@ HOME=/
 ```
 ## rsync rsync_snapshot
 站点更新, 备份
-
+```bash
+git clone git://git.samba.org/rsync.git
+```
 ## Time Machine＆Nettalk
 https://www.jianshu.com/p/8716022d6551
 https://www.v2ex.com/t/99081
@@ -151,8 +153,11 @@ https://home.cnblogs.com/u/george-guo/
 ## Katura
 通过 `sudo -i` 变成管理员模式 root
 https://blog.csdn.net/u012857400/article/details/78423970
+
+## 荣锋亮
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTA5MTUwOTUsNTc1ODQwNzMsMjEyOT
-I2NzQyNiwyMDc3MzY1MTAyLC0xOTcxMzA0Njg5LDIwMjI0MzU5
-NjAsLTE4NzExNDAzNTldfQ==
+eyJoaXN0b3J5IjpbLTkwNzM1NzgsLTE5OTA5MTUwOTUsNTc1OD
+QwNzMsMjEyOTI2NzQyNiwyMDc3MzY1MTAyLC0xOTcxMzA0Njg5
+LDIwMjI0MzU5NjAsLTE4NzExNDAzNTldfQ==
 -->
