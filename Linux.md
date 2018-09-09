@@ -135,9 +135,11 @@ HOME=/
 
 ## Time Machine＆Nettalk
 ##  Snapper
+## Mahavairocana  
+https://www.cnblogs.com/Mahavairocana/p/8261686.html
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzEzMDQ2ODksMjAyMjQzNTk2MCwtMT
-g3MTE0MDM1OV19
+eyJoaXN0b3J5IjpbMTc0OTY3ODUzNSwtMTk3MTMwNDY4OSwyMD
+IyNDM1OTYwLC0xODcxMTQwMzU5XX0=
 -->
