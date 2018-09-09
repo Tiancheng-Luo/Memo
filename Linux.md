@@ -156,8 +156,14 @@ https://blog.csdn.net/u012857400/article/details/78423970
 
 ## 荣锋亮
 https://www.cnblogs.com/rongfengliang/category/793037.html
+
+## 用户
+adduser testuser //新建testuser 用户 passwd testuser  
+作者：song先生  
+链接：https://www.imooc.com/article/17776?block_id=tuijian_wz  
+来源：慕课网
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDI4Mjc4NTEsLTE5OTA5MTUwOTUsNT
+eyJoaXN0b3J5IjpbLTEyMzUwNDc1NTAsLTE5OTA5MTUwOTUsNT
 c1ODQwNzMsMjEyOTI2NzQyNiwyMDc3MzY1MTAyLC0xOTcxMzA0
 Njg5LDIwMjI0MzU5NjAsLTE4NzExNDAzNTldfQ==
 -->
