@@ -161,7 +161,5 @@ https://www.cnblogs.com/rongfengliang/category/793037.html
 adduser testuser //新建testuser 用户 passwd testuser  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTE0MTUyOCwtMTk5MDkxNTA5NSw1Nz
-U4NDA3MywyMTI5MjY3NDI2LDIwNzczNjUxMDIsLTE5NzEzMDQ2
-ODksMjAyMjQzNTk2MCwtMTg3MTE0MDM1OV19
+eyJoaXN0b3J5IjpbMTAzMTE0MTUyOF19
 -->
