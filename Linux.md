@@ -135,6 +135,7 @@ HOME=/
 
 ## Time Machine＆Nettalk
 https://www.jianshu.com/p/8716022d6551
+https://www.v2ex.com/t/99081
 ##  Snapper
 ## Mahavairocana 运维佛法
 ```bash
@@ -146,6 +147,6 @@ https://home.cnblogs.com/u/george-guo/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg1NTg5NSwyMDc3MzY1MTAyLC0xOT
+eyJoaXN0b3J5IjpbMjEyOTI2NzQyNiwyMDc3MzY1MTAyLC0xOT
 cxMzA0Njg5LDIwMjI0MzU5NjAsLTE4NzExNDAzNTldfQ==
 -->
