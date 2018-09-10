@@ -24,9 +24,10 @@ Ridge(alpha=0.5, copy_X=True, fit_intercept=True, max_iter=None,
 print(reg.coef)
 reg.intercept_
 ```
-##### 设置正则化参数: 广义交叉验证
-
+#####   设置正则化参数: 广义交叉验证
+RidgeCV通过内置的Alpha 参数的交叉验证来实现岭回归.
+该对象对GridSearchCV的使用方法相同, 只是它默认为Generalized  
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMTYzMTk2MCw3NzcyMDY2NzFdfQ==
+eyJoaXN0b3J5IjpbMzcxOTEyMDc2LDc3NzIwNjY3MV19
 -->
