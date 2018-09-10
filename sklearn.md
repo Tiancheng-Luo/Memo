@@ -42,9 +42,10 @@ The `Lasso`是估计稀疏系数的线性模型. 它在一些情况下是有用�
 $$
 \underset{\omega}{min}\frac{1}{2 n_{samples}}{||X \omega - y||_2}^2 + \alpha||\omega||_1
 $$
+lasso estimate解决了加上罚项$\alpha||\omega||_1$的最小二乘法的最小化, 其中, $\alphaA$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxNTU5MDE5LC0xNDQ3NzczNTg0LDc3Nz
-IwNjY3MV19
+eyJoaXN0b3J5IjpbLTE2NTcwMzMwMjYsNzQxNTU5MDE5LC0xND
+Q3NzczNTg0LDc3NzIwNjY3MV19
 -->
