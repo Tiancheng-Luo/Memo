@@ -13,10 +13,9 @@ Ridge回归通过对系数的大小施加惩罚来解决普通最小二乘法的
 $$
 \underset{\omega}{min}{||X\omega - y||_2}^2 + \alpha{||\omega||_2}^2
 $$
-其中, $\alpha \l
-
+其中, $\alpha \geq 0$是控制系数收缩量的复杂性参数: \
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzY0NzM5Miw3NzcyMDY2NzFdfQ==
+eyJoaXN0b3J5IjpbMzczNjQwNDQ2LDc3NzIwNjY3MV19
 -->
