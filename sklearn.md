@@ -37,10 +37,10 @@ print(reg.alpha_)
 ```
 
 ### 1.1.3 Lasso
-The `Lasso`是估计
+The `Lasso`是估计稀疏系数的线性模型. 它在一些情况下是有用的, 因为它倾向于使用具有较少参数值的情况, 有效地减少给定解决方案
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjk4MTM3NzUsLTE0NDc3NzM1ODQsNz
-c3MjA2NjcxXX0=
+eyJoaXN0b3J5IjpbLTYyMjUzMzc5OCwtMTQ0Nzc3MzU4NCw3Nz
+cyMDY2NzFdfQ==
 -->
