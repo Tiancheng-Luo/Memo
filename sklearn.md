@@ -37,10 +37,10 @@ print(reg.alpha_)
 ```
 
 ### 1.1.3 Lasso
-The `Lasso`是估计稀疏系数的线性模型. 它在一些情况下是有用的, 因为它倾向于使用具有较少参数值的情况, 有效地减少给定解决方案
+The `Lasso`是估计稀疏系数的线性模型. 它在一些情况下是有用的, 因为它倾向于使用具有较少参数值的情况, 有效地减少给定解决方案所依赖变量的数量, 因此, Lasso及其变体是压缩感知领域的基础. 在一定条件下, 它可以恢复一组非零权重的精确集
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMjUzMzc5OCwtMTQ0Nzc3MzU4NCw3Nz
+eyJoaXN0b3J5IjpbMTIwODA5MDM5MiwtMTQ0Nzc3MzU4NCw3Nz
 cyMDY2NzFdfQ==
 -->
