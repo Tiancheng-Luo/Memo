@@ -26,8 +26,12 @@ reg.intercept_
 ```
 #####   设置正则化参数: 广义交叉验证
 RidgeCV通过内置的Alpha 参数的交叉验证来实现岭回归.
-该对象对GridSearchCV的使用方法相同, 只是它默认为Generalized  
+该对象对GridSearchCV的使用方法相同, 只是它默认为Generalized Cross-Validation(广义交叉验证GCV), 它是一种有效的留一验证方法(LOO-CV):
+```python
+from sklearn import linear_model
+reg = linear_model.RidgeCV
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxOTEyMDc2LDc3NzIwNjY3MV19
+eyJoaXN0b3J5IjpbLTEwMTkxMTg0ODgsNzc3MjA2NjcxXX0=
 -->
