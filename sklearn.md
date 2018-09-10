@@ -29,9 +29,9 @@ RidgeCV通过内置的Alpha 参数的交叉验证来实现岭回归.
 该对象对GridSearchCV的使用方法相同, 只是它默认为Generalized Cross-Validation(广义交叉验证GCV), 它是一种有效的留一验证方法(LOO-CV):
 ```python
 from sklearn import linear_model
-reg = linear_model.RidgeCV
+reg = linear_model.RidgeCV(alphas=[0.1, 1.0, 10.0])
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkxMTg0ODgsNzc3MjA2NjcxXX0=
+eyJoaXN0b3J5IjpbLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX0=
 -->
