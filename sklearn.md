@@ -31,11 +31,10 @@ RidgeCV通过内置的Alpha 参数的交叉验证来实现岭回归.
 from sklearn import linear_model
 reg = linear_model.RidgeCV(alphas=[0.1, 1.0, 10.0])
 reg.fit([[0, 0], [0, 0], [1, 1]], [0, 0.1, 1])
-RidgeDV(alpha=0.5, copy_X=True, fit_intercept=True, max_iter=None,
-		normalize=False, random_state=None, solver='auto',tol=0.001)
+RidgeDV(alpha=[0.1, 1.0,10.0],cv=None,fit_intercept=True,scoring=None, normalize=False)
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTY1ODgyNSwtMTQ0Nzc3MzU4NCw3Nz
-cyMDY2NzFdfQ==
+eyJoaXN0b3J5IjpbNjE4NDEyNjY4LC0xNDQ3NzczNTg0LDc3Nz
+IwNjY3MV19
 -->
