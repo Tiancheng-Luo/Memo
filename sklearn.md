@@ -21,9 +21,12 @@ reg = linear_model.Ridge(alpha = 0.5)
 reg.fit([[0, 0], [0, 0], [1, 1]], [0, 0.1, 1])
 Ridge(alpha=0.5, copy_X=True, fit_intercept=True, max_iter=None,
 		normalize=False, random_state=none, solver='auto',tol=0.001)
-print(reg.
+print(reg.coef)
+reg.intercept_
+```
+##### 设置正则化参数: 广义交叉验证
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4Mzc1NjAwLDc3NzIwNjY3MV19
+eyJoaXN0b3J5IjpbLTMxMTYzMTk2MCw3NzcyMDY2NzFdfQ==
 -->
