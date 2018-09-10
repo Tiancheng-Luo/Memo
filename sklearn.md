@@ -18,9 +18,11 @@ $$
 ```python
 from sklearn import linear_model
 reg = linear_model.Ridge(alpha = 0.5)
-reg.fit([[0, 0], [0, 0], [1
+reg.fit([[0, 0], [0, 0], [1, 1]], [0, 0.1, 1])
+Ridge(alpha=0.5, copy_X=True, fit_intercept=True, max_iter=None,
+		No
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA5MTE1OTQsNzc3MjA2NjcxXX0=
+eyJoaXN0b3J5IjpbLTQyNzk5OTA4Miw3NzcyMDY2NzFdfQ==
 -->
