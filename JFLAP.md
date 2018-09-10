@@ -164,6 +164,27 @@ $$
 \stackrel{\frown}{MM'}
 $$
 $A \mathop{+}_{\text{below}}^{\text{above}} C$
+
+
+## 广义线性模型
+下面是一组用于回归的方法, 其中目标值y是输入变量x的线性组合, 在数学概念中, 如果$\hat{y}$是预测值.
+$$ 
+\hat{y}(\omega, x) = \omega_0 + \omega_1 x_1 +  \cdots +\omega_p x_p
+$$
+在整个模块中, 我们定义向量$\omega=(\omega_1,\cdots,\omega_p)$作为`coef_`, 定义$\omega_0$作为`intercept_`.
+如果需要使用广义线性模型进行分类, 请参阅logistic回归.
+### 1.1.1普通最小二乘法
+$$
+\tag{1-1} \underset{\omega}{\min}{||X\omega - y||_2}^2
+$$
+```python
+from sklearn import linear_model
+reg = linear_model.LinearRegresssion()
+reg.fit([[0, 0], [1, 1], [2, 2]], [0, 1, 2])
+print(reg.coef_)
+```
+### 1.1.2 岭回归
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTAyMTQwXX0=
+eyJoaXN0b3J5IjpbMTUyOTQ3MDQ3NywxNjkxMDIxNDBdfQ==
 -->
