@@ -160,8 +160,23 @@ https://www.cnblogs.com/rongfengliang/category/793037.html
 ## 用户
 adduser testuser //新建testuser 用户 passwd testuser  
 addgroup
-chgrp
+chgrp (选项)(参数)
 
+```bash
+chgrp -R mengxin /usr/meng
+```
+选项  
+-c或——changes：效果类似“-v”参数，但仅回报更改的部分；
+-f或--quiet或——silent：不显示错误信息；
+-h或--no-dereference：只对符号连接的文件作修改，而不是该其他任何相关文件；
+-R或——recursive：递归处理，将指令目录下的所有文件及子目录一并处理；
+-v或——verbose：显示指令执行过程；
+--reference=<参考文件或目录>：把指定文件或目录的所属群组全部设成和参考文件或目录的所属群组相同；
+
+### 参数  
+
+-   组：指定新工作名称；
+-   文件：指定要改变所属组的文件列表。多个文件或者目录之间使用空格隔开
 ## /bin /usr/bin /usr/sbin /sbin
 在linux下我们经常用到的四个应用程序的目录是/bin、/sbin、/usr/bin、/usr/sbin 。而四者存放的文件一般如下：
 
@@ -238,6 +253,6 @@ fswatch -i #recursively
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDg1ODI3NCwtMzI0NDc4NzU2LDIwMD
+eyJoaXN0b3J5IjpbMTgwNjU5NDk2MCwtMzI0NDc4NzU2LDIwMD
 M0MTI4NTcsMTAzMTE0MTUyOF19
 -->
