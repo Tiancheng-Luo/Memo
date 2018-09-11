@@ -213,6 +213,29 @@ M4 是一个宏处理器.将输入拷贝到输出,同时将宏展开. 宏可以�
 m4 将输入拷贝到输出,同时将宏展开. 宏可以是内嵌的也可以是用户定义的. 除了可以展开宏,m4还有一些内建的函数,用来引用文件,执行Unix命令,整数运算,文本操作,循环等. m4既可以作为编译器的前端也可以单独作为一个宏处理器。  
 M4 安装依赖关系  
 M4 依赖于: Bash, Binutils, Coreutils, Diffutils, GCC, Gettext, Glibc, Grep, Make, Perl, Sed.
+
+## 安装GNU开发工具
+```bash
+yum group install 'Development Tools' # CENTOS
+dnf group install 'Development Tools  # FEDORA
+sudo apt-get install build-essential 	# Debian/Ubuntu
+```
+## fswatch
+```bash
+fswatch [option] [path]
+```
+```bash
+fswatch -M # 显示所有显示器
+```
+poll_monitor ; inotify_monitor/ windows_monitor
+```bash
+fswatch -x #print event flag
+fswatch -t #print timestamp
+fswatch -r #recursively
+fswatch -i #recursively
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzQxMjg1NywxMDMxMTQxNTI4XX0=
+eyJoaXN0b3J5IjpbLTMyNDQ3ODc1NiwyMDAzNDEyODU3LDEwMz
+ExNDE1MjhdfQ==
 -->
