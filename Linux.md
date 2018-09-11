@@ -172,11 +172,9 @@ chgrp -R mengxin /usr/meng
 -R或——recursive：递归处理，将指令目录下的所有文件及子目录一并处理；
 -v或——verbose：显示指令执行过程；
 --reference=<参考文件或目录>：把指定文件或目录的所属群组全部设成和参考文件或目录的所属群组相同；
-
-### 参数  
-
--   组：指定新工作名称；
--   文件：指定要改变所属组的文件列表。多个文件或者目录之间使用空格隔开
+ 参数  
+ 组：指定新工作名称；
+-文件：指定要改变所属组的文件列表。多个文件或者目录之间使用空格隔开
 ## /bin /usr/bin /usr/sbin /sbin
 在linux下我们经常用到的四个应用程序的目录是/bin、/sbin、/usr/bin、/usr/sbin 。而四者存放的文件一般如下：
 
@@ -253,6 +251,6 @@ fswatch -i #recursively
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjU5NDk2MCwtMzI0NDc4NzU2LDIwMD
-M0MTI4NTcsMTAzMTE0MTUyOF19
+eyJoaXN0b3J5IjpbNzY3ODUxNjAyLC0zMjQ0Nzg3NTYsMjAwMz
+QxMjg1NywxMDMxMTQxNTI4XX0=
 -->
