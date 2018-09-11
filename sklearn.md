@@ -2,7 +2,7 @@
 
 标准差与平均数的比值称为变异系数，记为C.V(Coefficient of Variance)。
 
-用公式表示为：$C.V.=\frac{\sigma} {\miu}$。
+用公式表示为：$C.V.=\frac{\sigma}{\mu}$ 。
 
 ### 1.1.1普通最小二乘法
 $$
@@ -52,6 +52,6 @@ lasso estimate解决了加上罚项$\alpha||\omega||_1$的最小二乘法的最�
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTM4NTA0NCwtMTQyNDI5MTgwMCw3ND
+eyJoaXN0b3J5IjpbLTIyNzU0Nzg2NSwtMTQyNDI5MTgwMCw3ND
 E1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX0=
 -->
