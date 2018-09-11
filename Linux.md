@@ -159,6 +159,8 @@ https://www.cnblogs.com/rongfengliang/category/793037.html
 
 ## 用户
 adduser testuser //新建testuser 用户 passwd testuser  
+addgroup
+chgrp
 
 ## /bin /usr/bin /usr/sbin /sbin
 在linux下我们经常用到的四个应用程序的目录是/bin、/sbin、/usr/bin、/usr/sbin 。而四者存放的文件一般如下：
@@ -236,6 +238,6 @@ fswatch -i #recursively
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDQ3ODc1NiwyMDAzNDEyODU3LDEwMz
-ExNDE1MjhdfQ==
+eyJoaXN0b3J5IjpbLTIxNDg1ODI3NCwtMzI0NDc4NzU2LDIwMD
+M0MTI4NTcsMTAzMTE0MTUyOF19
 -->
