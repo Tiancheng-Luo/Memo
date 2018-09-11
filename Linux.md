@@ -160,9 +160,10 @@ https://www.cnblogs.com/rongfengliang/category/793037.html
 ## 用户
 adduser testuser //新建testuser 用户 passwd testuser  
 addgroup
-chgrp (选项)(参数)
+
 
 ```bash
+chgrp [-cfhRv][--help][--version][所属群组][文件或目录...]  或 chgrp [-cfhRv][--help][--reference=<参考文件或目录>][--version][文件或目录...]
 chgrp -R mengxin /usr/meng
 ```
 选项  
@@ -251,6 +252,6 @@ fswatch -i #recursively
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3ODUxNjAyLC0zMjQ0Nzg3NTYsMjAwMz
-QxMjg1NywxMDMxMTQxNTI4XX0=
+eyJoaXN0b3J5IjpbMTk2Mjc3OTQ2Myw3Njc4NTE2MDIsLTMyND
+Q3ODc1NiwyMDAzNDEyODU3LDEwMzExNDE1MjhdfQ==
 -->
