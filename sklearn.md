@@ -81,12 +81,15 @@ $$
 G = A^T \cdot A &=
 \begin{bmatrix}a_1^T \\ a_2^T \\ \vdots \\ a_n^T\end{bmatrix}  \cdot
 \begin{bmatrix}a_1 & a_2 & \cdots & a_n\end{bmatrix} \\
-&= \begin{bmatrix} a_1^T a_1 & a_1^T a_2 & \cdots &\a_1^T a_n\end{bmatrix}
+&= \begin{bmatrix} 
+		a_1^T a_1 & a_1^T a_2 & \cdots & a_n^T a_n \\
+		
+\end{bmatrix}
 \end{aligned}
 $$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTUwNDI1OCw1NTk5OTU3NjgsLTIyNz
-U0Nzg2NSwtMTQyNDI5MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1
-ODQsNzc3MjA2NjcxXX0=
+eyJoaXN0b3J5IjpbLTE2NTgxNzcwMzMsNTU5OTk1NzY4LC0yMj
+c1NDc4NjUsLTE0MjQyOTE4MDAsNzQxNTU5MDE5LC0xNDQ3Nzcz
+NTg0LDc3NzIwNjY3MV19
 -->
