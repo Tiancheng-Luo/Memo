@@ -64,8 +64,8 @@ Lasso(alpha=0.1, # 参数$\alpha$
 		    # If you wish to standardize, please use
 	       	# :class:`sklearn.preprocessing.StandardScaler` before calling `fit`
 		    # on an estimator with ``normalize=False``.
-		positive=False, 
-		precompt=False, 
+		positive=False, # When`True`, forces the coefficients to be positive
+		precompt=False, # Whether use a precomputed Gram matrix to speed up calculations.
 		random_state=None,
 		selector='cyclic', 
 		tol=0.0001, 
@@ -106,7 +106,7 @@ $$
 + (4) 转至(2), 直至没有误分类数据.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTI4NjY5MiwtMTc0Mzk1MDY5OCwtMT
+eyJoaXN0b3J5IjpbLTQ4Nzk2ODA0MCwtMTc0Mzk1MDY5OCwtMT
 YxODI1MjcyMCw1NTk5OTU3NjgsLTIyNzU0Nzg2NSwtMTQyNDI5
 MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX
 0=
