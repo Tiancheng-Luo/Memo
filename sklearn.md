@@ -66,9 +66,10 @@ Lasso(alpha=0.1, # 参数$\alpha$
 		    # on an estimator with ``normalize=False``.
 		positive=False, # When`True`, forces the coefficients to be positive
 		precompt=False, # Whether to use a precomputed Gram matrix to speed up. 
-						# The Gram matrix can also be passed as argument. For sparse input
-				        # this option is always ``True`` to preserve sparsity.			                          
-		random_state=None,
+						# The Gram matrix can also be passed as argument. 
+				        # For sparse inputthis option is always `True`
+				        # to preserve sparsity.			                          
+		random_state=None, #None | seed |
 		selector='cyclic', 
 		tol=0.0001, 
 		warm_start=False
@@ -108,8 +109,8 @@ $$
 + (4) 转至(2), 直至没有误分类数据.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM0MTc5ODIsLTE3NDM5NTA2OTgsLT
-E2MTgyNTI3MjAsNTU5OTk1NzY4LC0yMjc1NDc4NjUsLTE0MjQy
-OTE4MDAsNzQxNTU5MDE5LC0xNDQ3NzczNTg0LDc3NzIwNjY3MV
-19
+eyJoaXN0b3J5IjpbLTEzNzY5MzkzMywtMTc0Mzk1MDY5OCwtMT
+YxODI1MjcyMCw1NTk5OTU3NjgsLTIyNzU0Nzg2NSwtMTQyNDI5
+MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX
+0=
 -->
