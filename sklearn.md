@@ -99,11 +99,11 @@ $$
 输出: $a, b$, 感知机模型为$f(x) = sgn(\sum_{j=1}^N \alpha_j y_j x_j \cdot x + b)$, 显然$\alpha$是长度为N的向量;
 算法:
 + (1) $\alpha \leftarrow 0, b \leftarrow 0$
-+ (2) d
-
++ (2) 在训练集中选取数据$(x_i, y_i)$
++ (3) 如果$y_i($
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjE1MDU0NCwtMTc0Mzk1MDY5OCwtMT
+eyJoaXN0b3J5IjpbMTI2MDkxODg5MiwtMTc0Mzk1MDY5OCwtMT
 YxODI1MjcyMCw1NTk5OTU3NjgsLTIyNzU0Nzg2NSwtMTQyNDI5
 MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX
 0=
