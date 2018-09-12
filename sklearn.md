@@ -74,11 +74,11 @@ print(reg.predict([[1,1]])
 对称矩阵
 欧氏空间半正定
 -  如果  $v_1,v_2,…,v_n$  分别是随机向量，则 Gram 矩阵是协方差矩阵；
-
+-   其实对于一个$X_N⋅d$（N 个样本，d 个属性）的样本矩阵而言，$X⋅X'X⋅X'$  即为 Gram 矩阵；
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzQ5ODkxOCw1NTk5OTU3NjgsLTIyNz
+eyJoaXN0b3J5IjpbMTU2MjE4MzY2Myw1NTk5OTU3NjgsLTIyNz
 U0Nzg2NSwtMTQyNDI5MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1
 ODQsNzc3MjA2NjcxXX0=
 -->
