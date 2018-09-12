@@ -58,7 +58,12 @@ Lasso(alpha=0.1, # 参数$\alpha$
 		copy_X=True, # 对是否修改数据的一个标记，如果True，即复制了就不会修改数据
 		fit_intercept=True, #  是否计算截距(数据预处理可能已经centered)
 		max_iter=1000, # 迭代最多次数
-		normalize=False,#  
+		normalize=False,#   ignored when `fit_intercept` False.
+ |      # If True, the regressors X will be normalized before regression by
+ |      # subtracting the mean and dividing by the l2-norm.
+ |      # If you wish to standardize, please use
+ |      :class:`sklearn.preprocessing.StandardScaler` before calling ``fit``
+ |      on an estimator with ``normalize=False``.
 		positive=False, 
 		precompt=False, 
 		random_state=None,
@@ -91,7 +96,7 @@ G = A^T \cdot A &=
 $$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTgyNTI3MjAsNTU5OTk1NzY4LC0yMj
-c1NDc4NjUsLTE0MjQyOTE4MDAsNzQxNTU5MDE5LC0xNDQ3Nzcz
-NTg0LDc3NzIwNjY3MV19
+eyJoaXN0b3J5IjpbLTE5MjQyNDM4MjIsLTE2MTgyNTI3MjAsNT
+U5OTk1NzY4LC0yMjc1NDc4NjUsLTE0MjQyOTE4MDAsNzQxNTU5
+MDE5LC0xNDQ3NzczNTg0LDc3NzIwNjY3MV19
 -->
