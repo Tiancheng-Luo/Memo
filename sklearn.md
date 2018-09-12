@@ -85,13 +85,13 @@ G = A^T \cdot A &=
 		a_1^T a_1 & a_1^T a_2 & \cdots & a_1^T a_n  \\ 
 		a_2^T	a_1 & a_2^T a_2 & \cdots & a_2^T a_n  \\
 		\vdots & \vdots  & \ddots & \vdots \\
-		a_n^T a_n	
+		a_n^T a_1  & a_n^T a_2 & \cdots &a_n^T a_n	
 \end{bmatrix}
 \end{aligned}
 $$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTU2MzM3Niw1NTk5OTU3NjgsLTIyNz
-U0Nzg2NSwtMTQyNDI5MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1
-ODQsNzc3MjA2NjcxXX0=
+eyJoaXN0b3J5IjpbLTE2MTgyNTI3MjAsNTU5OTk1NzY4LC0yMj
+c1NDc4NjUsLTE0MjQyOTE4MDAsNzQxNTU5MDE5LC0xNDQ3Nzcz
+NTg0LDc3NzIwNjY3MV19
 -->
