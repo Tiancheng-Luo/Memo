@@ -70,11 +70,15 @@ print(reg.predict([[1,1]])
 ```
 对于较低级别的任务, 同样有用的是函数lasso_path, 它能够搜索所有可能路径上的值来计算函数.
 
+### Gram矩阵
+对称矩阵
+欧氏空间半正定
+-  如果  $v_1,v_2,…,v_n$  分别是随机向量，则 Gram 矩阵是协方差矩阵；
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5OTk1NzY4LC0yMjc1NDc4NjUsLTE0Mj
-QyOTE4MDAsNzQxNTU5MDE5LC0xNDQ3NzczNTg0LDc3NzIwNjY3
-MV19
+eyJoaXN0b3J5IjpbMjExNzQ5ODkxOCw1NTk5OTU3NjgsLTIyNz
+U0Nzg2NSwtMTQyNDI5MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1
+ODQsNzc3MjA2NjcxXX0=
 -->
