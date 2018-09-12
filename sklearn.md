@@ -100,10 +100,13 @@ $$
 算法:
 + (1) $\alpha \leftarrow 0, b \leftarrow 0$
 + (2) 在训练集中选取数据$(x_i, y_i)$
-+ (3) 如果$y_i($
++ (3) 如果$y_i(\sum^N_{j=1} \alpha_j y_j  x_j + b) \leq 0$,
+		$\alpha_i \leftarrow \alpha_i +  \eta$
+		$b \leftarrow + \eta y_i$
++ (4) 转至(2), 直至没有误分类数据.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDkxODg5MiwtMTc0Mzk1MDY5OCwtMT
+eyJoaXN0b3J5IjpbMTExMTI4NjY5MiwtMTc0Mzk1MDY5OCwtMT
 YxODI1MjcyMCw1NTk5OTU3NjgsLTIyNzU0Nzg2NSwtMTQyNDI5
 MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX
 0=
