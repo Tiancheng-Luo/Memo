@@ -49,9 +49,23 @@ $$
 \underset{\omega}{min}\frac{1}{2 n_{samples}}{||X \omega - y||_2}^2 + \alpha||\omega||_1
 $$
 lasso estimate解决了加上罚项$\alpha||\omega||_1$的最小二乘法的最小化, 其中, $\alpha$是一个常数, $||\omega||_1$是参数向量的$l_1-norm$范数
+Lasso类的实现使用了coordinate descent(坐标下降算法)来拟合系数. 查看`最小角回归`, 这是另一种方法.
+```python
+from sklearn import linear_model
+reg = linear_model.Lasso(alpha = 0.1)
+reg.fit([[0, 0], [1, 1]], [0, 1]);
+Lasso(alpha=0.1, copy_X=True, fit_intercept=True, max_iter=1000,
+normalize=False, positive=False, precompt=False, random_state=None,
+selector='cyclic', tol=0.0001, warm_start=False)
+print(reg.predict([[1,1]])
+```
+对于较低级别的任务, 同样有用的是函数lasso_path, 它能够搜索所有可能路径上的值来计算函数.
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzU0Nzg2NSwtMTQyNDI5MTgwMCw3ND
-E1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX0=
+eyJoaXN0b3J5IjpbLTE1MDQ0NjA2NTMsLTIyNzU0Nzg2NSwtMT
+QyNDI5MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2
+NjcxXX0=
 -->
