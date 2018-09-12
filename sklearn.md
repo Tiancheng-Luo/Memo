@@ -96,12 +96,12 @@ G = A^T \cdot A &=
 $$
 
 输入：线性可分的数据集$T=[(x_1, y_1), (x_2, y_2), \cdots, (x_N, y_N)]$, 其中$x_i \in R^n, y_i \in \{-1, +1\}$, 学习率为$\eta$
-输出: $a, b$, 感知机模型为$
+输出: $a, b$, 感知机模型为$f(x) = sgn(\Sigma^N_{j=1}$
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI5MzE2NTQsLTE3NDM5NTA2OTgsLT
-E2MTgyNTI3MjAsNTU5OTk1NzY4LC0yMjc1NDc4NjUsLTE0MjQy
-OTE4MDAsNzQxNTU5MDE5LC0xNDQ3NzczNTg0LDc3NzIwNjY3MV
-19
+eyJoaXN0b3J5IjpbLTgwMjQ2MjA1MiwtMTc0Mzk1MDY5OCwtMT
+YxODI1MjcyMCw1NTk5OTU3NjgsLTIyNzU0Nzg2NSwtMTQyNDI5
+MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX
+0=
 -->
