@@ -76,10 +76,14 @@ print(reg.predict([[1,1]])
 -  如果  $v_1,v_2,…,v_n$  分别是随机向量，则 Gram 矩阵是协方差矩阵；
 -   其实对于一个$X_N⋅d$（N 个样本，d 个属性）的样本矩阵而言，$X⋅X'X⋅X'$  即为 Gram 矩阵；
 在CNN style transfer中：图像内容附近通过白噪声初始化一个输出的结果，然后通过网络对这个结果进行风格和内容两方面的约束进行修正。而在风格的表示中采用的是Gram Matrix。
-
+$$
+\begin{bmatrix}
+1, 2, 3,3
+\end{bmatrix}
+$$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyNDg5Mzg2LDU1OTk5NTc2OCwtMjI3NT
-Q3ODY1LC0xNDI0MjkxODAwLDc0MTU1OTAxOSwtMTQ0Nzc3MzU4
-NCw3NzcyMDY2NzFdfQ==
+eyJoaXN0b3J5IjpbLTEyOTkzNTc1NzMsNTU5OTk1NzY4LC0yMj
+c1NDc4NjUsLTE0MjQyOTE4MDAsNzQxNTU5MDE5LC0xNDQ3Nzcz
+NTg0LDc3NzIwNjY3MV19
 -->
