@@ -55,8 +55,9 @@ from sklearn import linear_model
 reg = linear_model.Lasso(alpha = 0.1)
 reg.fit([[0, 0], [1, 1]], [0, 1]);
 Lasso(alpha=0.1, # 参数$\alpha$ 
-		copy_X=True, # 
-		 fit_intercept=True, max_iter=1000,
+		copy_X=True, # 对是否修改数据的一个标记，如果True，即复制了就不会修改数据
+		fit_intercept=True, #  是否计算
+		max_iter=1000,
 normalize=False, positive=False, precompt=False, random_state=None,
 selector='cyclic', tol=0.0001, warm_start=False)
 print(reg.predict([[1,1]])
@@ -67,7 +68,7 @@ print(reg.predict([[1,1]])
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg2ODcwOSwtMjI3NTQ3ODY1LC0xND
-I0MjkxODAwLDc0MTU1OTAxOSwtMTQ0Nzc3MzU4NCw3NzcyMDY2
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTE4MzM4MjY5MTIsLTIyNzU0Nzg2NSwtMT
+QyNDI5MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2
+NjcxXX0=
 -->
