@@ -70,8 +70,11 @@ Lasso(alpha=0.1, # 参数$\alpha$
 				        # For sparse inputthis option is always `True`
 				        # to preserve sparsity.			                          
 		random_state=None, # None | seed | RadomNubmer_Generator
-		selection='cyclic',  # If set to 'random', a random coefficient is updated every iteration rather than looping over features sequentially by default. This (setting to 'random') often leads to significantly faster convergence
- |      especially when tol is higher than 1e-4.
+		selection='cyclic',  # If set to 'random', a random coefficient is 
+							 # updated every iteration rather 
+							 # than looping over features sequentially 
+							 # by default. This (setting to 'random') often
+							 # leads to significantly faster convergence #especially when tol is higher than 1e-4.
 		tol=0.0001, 
 		warm_start=False
 		)
@@ -110,7 +113,7 @@ $$
 + (4) 转至(2), 直至没有误分类数据.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTI4ODkxMCwtMTc0Mzk1MDY5OCwtMT
+eyJoaXN0b3J5IjpbLTI4Nzg3MjY4NywtMTc0Mzk1MDY5OCwtMT
 YxODI1MjcyMCw1NTk5OTU3NjgsLTIyNzU0Nzg2NSwtMTQyNDI5
 MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX
 0=
