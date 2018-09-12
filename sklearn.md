@@ -58,7 +58,7 @@ Lasso(alpha=0.1, # 参数$\alpha$
 		copy_X=True, # 对是否修改数据的一个标记，如果True，即复制了就不会修改数据
 		fit_intercept=True, #  是否计算截距(数据预处理可能已经centered)
 		max_iter=1000, # 迭代最多次数
-		normalize=False, 
+		normalize=False,#  
 		positive=False, 
 		precompt=False, 
 		random_state=None,
@@ -74,7 +74,7 @@ print(reg.predict([[1,1]])
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE4OTE1NywtMjI3NTQ3ODY1LC0xND
-I0MjkxODAwLDc0MTU1OTAxOSwtMTQ0Nzc3MzU4NCw3NzcyMDY2
-NzFdfQ==
+eyJoaXN0b3J5IjpbNTU5OTk1NzY4LC0yMjc1NDc4NjUsLTE0Mj
+QyOTE4MDAsNzQxNTU5MDE5LC0xNDQ3NzczNTg0LDc3NzIwNjY3
+MV19
 -->
