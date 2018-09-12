@@ -77,15 +77,16 @@ print(reg.predict([[1,1]])
 -   其实对于一个$X_N⋅d$（N 个样本，d 个属性）的样本矩阵而言，$X⋅X'X⋅X'$  即为 Gram 矩阵；
 在CNN style transfer中：图像内容附近通过白噪声初始化一个输出的结果，然后通过网络对这个结果进行风格和内容两方面的约束进行修正。而在风格的表示中采用的是Gram Matrix。
 $$
-\begin{equa}
-G = A^T \cdot A =
+\begin{aligned}
+G = A^T \cdot A &=
 \begin{bmatrix}a_1^T \\ a_2^T \\ \vdots \\ a_n^T\end{bmatrix}  \cdot
 \begin{bmatrix}a_1 & a_2 & \cdots & a_n\end{bmatrix} \\
-\end{equation}
+&= \b
+\end{aligned}
 $$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzkxMTM1NjAsNTU5OTk1NzY4LC0yMj
-c1NDc4NjUsLTE0MjQyOTE4MDAsNzQxNTU5MDE5LC0xNDQ3Nzcz
-NTg0LDc3NzIwNjY3MV19
+eyJoaXN0b3J5IjpbLTY3NDgwMzA5Myw1NTk5OTU3NjgsLTIyNz
+U0Nzg2NSwtMTQyNDI5MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1
+ODQsNzc3MjA2NjcxXX0=
 -->
