@@ -69,7 +69,7 @@ Lasso(alpha=0.1, # 参数$\alpha$
 						# The Gram matrix can also be passed as argument. 
 				        # For sparse inputthis option is always `True`
 				        # to preserve sparsity.			                          
-		random_state=None, #None | seed | RadomNubmer_Generator
+		random_state=None, # None | seed | RadomNubmer_Generator
 		selector='cyclic', 
 		tol=0.0001, 
 		warm_start=False
@@ -109,7 +109,7 @@ $$
 + (4) 转至(2), 直至没有误分类数据.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4NjIwODI1LC0xNzQzOTUwNjk4LC0xNj
+eyJoaXN0b3J5IjpbMjA1MTAwOTUxLC0xNzQzOTUwNjk4LC0xNj
 E4MjUyNzIwLDU1OTk5NTc2OCwtMjI3NTQ3ODY1LC0xNDI0Mjkx
 ODAwLDc0MTU1OTAxOSwtMTQ0Nzc3MzU4NCw3NzcyMDY2NzFdfQ
 ==
