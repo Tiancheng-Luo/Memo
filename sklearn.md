@@ -94,9 +94,13 @@ G = A^T \cdot A &=
 \end{bmatrix}
 \end{aligned}
 $$
+
+输入：线性可分的数据集$T={(x_1, y_1), (x_2, y_2), \
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM5NTA2OTgsLTE2MTgyNTI3MjAsNT
-U5OTk1NzY4LC0yMjc1NDc4NjUsLTE0MjQyOTE4MDAsNzQxNTU5
-MDE5LC0xNDQ3NzczNTg0LDc3NzIwNjY3MV19
+eyJoaXN0b3J5IjpbMTU5NTUyMTQwNywtMTc0Mzk1MDY5OCwtMT
+YxODI1MjcyMCw1NTk5OTU3NjgsLTIyNzU0Nzg2NSwtMTQyNDI5
+MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX
+0=
 -->
