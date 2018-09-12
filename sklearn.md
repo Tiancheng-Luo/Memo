@@ -74,8 +74,11 @@ Lasso(alpha=0.1, # 参数$\alpha$
 							 # updated every iteration rather 
 							 # than looping over features sequentially 
 							 # by default. This (setting to 'random') often
-							 # leads to significantly faster convergence #especially when tol is higher than 1e-4.
-		tol=0.0001, 
+							 # leads to significantly faster convergence
+							 # especially when tol is higher than 1e-4.
+		tol=0.0001,   # the optimization code checks the dual gap for optimality 			 
+						and continues until it is smaller
+ |      than ``tol``
 		warm_start=False
 		)
 print(reg.predict([[1,1]])
@@ -113,8 +116,8 @@ $$
 + (4) 转至(2), 直至没有误分类数据.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Nzg3MjY4NywtMTc0Mzk1MDY5OCwtMT
-YxODI1MjcyMCw1NTk5OTU3NjgsLTIyNzU0Nzg2NSwtMTQyNDI5
-MTgwMCw3NDE1NTkwMTksLTE0NDc3NzM1ODQsNzc3MjA2NjcxXX
-0=
+eyJoaXN0b3J5IjpbLTIwNTA2MzY4NjIsLTE3NDM5NTA2OTgsLT
+E2MTgyNTI3MjAsNTU5OTk1NzY4LC0yMjc1NDc4NjUsLTE0MjQy
+OTE4MDAsNzQxNTU5MDE5LC0xNDQ3NzczNTg0LDc3NzIwNjY3MV
+19
 -->
