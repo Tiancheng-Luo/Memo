@@ -307,9 +307,34 @@ Makefile.am:211:   'lib/local.mk' included from here
 lib/local.mk:1:   'lib/gnulib.mk' included from here
 lib/gnulib.mk:711: error: GL_GENERATE_ERRNO_H does not appear in AM_CONDITIONAL
 
+
+## virtualbox
+http://ju.outofmemory.cn/entry/84388
+
+I. 控制芯片
+
+几个不同的 driver 目测没有显著差别，只不过不同的 host/guest 对驱动的支持范围不同，哪个能用就选哪个。唯一例外是 virtio-net，由于它是半虚拟化的 driver（出自 KVM），性能可能会好一点。
+ II. 连接模式
+1.  NAT，guest 可访问 host 和外网，但外界不能访问 guest。除非设置端口转发。
+    
+2.  Bridged，guest 通过网卡桥接直连外网，与 host 之间相当于 LAN 里的两台独立机器。
+    
+3.  Internal，guest 与其他 guest 之间可互相通信，但 host 无法访问，也无法做端口转发。
+    
+4.  Host-Only，所有 guest 的通信都会经过 host 的一个虚拟网卡（host 相当于网关），所以 host 与 guest(s) 间可互相通信（但是 guest 对外网不可见）
+    
+
+相互对比一下会发现 NAT 和 Host-Only 实用价值较明显。如果 host 不需要访问 guest，用 NAT（或者只需要访问某个端口，映射比较方便）。如果需要较复杂的网络通信，用 Host-Only，然后给需要访问外网的 guest 加上 NAT。Host-Only 相对于 NAT 的优势在于更清晰的网络划分（有点类似 Linux 里 brctl + iptables 给 LXC 设立的网络环境）。
+
+## III. 奇怪的 “Promiscuous Mode”
+
+上面提到的文章以及 VirtualBox 的官方文档都没有讲清楚 Promiscuous Mode 究竟是什么东西，这里摘录  [Wikipedia 的解释](http://zh.wikipedia.org/wiki/Promiscuous_mode)：
+
+> 一般计算机网卡都工作在非混杂模式下，此时网卡只接受来自网络端口的目的地址指向自己的数据。当网卡工作在混杂模式下时，网卡会捕获来自接口的所有数据并交给相应的驱动程序。网卡的混杂模式一般在网络管理员分析网络数据作为网络故障诊断手段时用到，同时这个模式也被网络黑客利用来作为网络数据窃听的入口。在Linux操作系统中设置网卡混杂模式时需要管理员权限。在Windows操作系统和Linux操作系统中都有使用混杂模式的抓包工具，比如著名的开源软件Wireshark。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQwNTM5MjQsLTM2NDgyNTMxMSw5Mj
-QyMDAxNzksLTQyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NTM0MjMz
-NTIsODM2NTU3OTc2LDE5NjI3Nzk0NjMsNzY3ODUxNjAyLC0zMj
-Q0Nzg3NTYsMjAwMzQxMjg1NywxMDMxMTQxNTI4XX0=
+eyJoaXN0b3J5IjpbOTkyMTcyOTMyLC0xMDQ0MDUzOTI0LC0zNj
+Q4MjUzMTEsOTI0MjAwMTc5LC00MjEwNTU2NzMsODc1NDY5MzQz
+LC0xNzUzNDIzMzUyLDgzNjU1Nzk3NiwxOTYyNzc5NDYzLDc2Nz
+g1MTYwMiwtMzI0NDc4NzU2LDIwMDM0MTI4NTcsMTAzMTE0MTUy
+OF19
 -->
