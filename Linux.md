@@ -283,9 +283,16 @@ gpg: binary signature, digest algorithm SHA256
 
 ## Gettext
 yum install libtool gettext intltool
+
+## openssh
+sudo apt-get install openssh-server  
+查询其服务时候安装成功的命令：  
+netstat -tlp  
+如显示如下结果，即表明服务启动成功：
+1.  tcp 0 0 *:ssh *:* LISTEN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0MjAwMTc5LC00MjEwNTU2NzMsODc1ND
-Y5MzQzLC0xNzUzNDIzMzUyLDgzNjU1Nzk3NiwxOTYyNzc5NDYz
-LDc2Nzg1MTYwMiwtMzI0NDc4NzU2LDIwMDM0MTI4NTcsMTAzMT
-E0MTUyOF19
+eyJoaXN0b3J5IjpbLTM2NDgyNTMxMSw5MjQyMDAxNzksLTQyMT
+A1NTY3Myw4NzU0NjkzNDMsLTE3NTM0MjMzNTIsODM2NTU3OTc2
+LDE5NjI3Nzk0NjMsNzY3ODUxNjAyLC0zMjQ0Nzg3NTYsMjAwMz
+QxMjg1NywxMDMxMTQxNTI4XX0=
 -->
