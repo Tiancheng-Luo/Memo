@@ -277,10 +277,10 @@ Primary key fingerprint: 6C37 DC12 121A 5006 BC1D  B804 DF6F D971 3060 37D9
 gpg: binary signature, digest algorithm SHA256
 
 ## ls -l
-![[ls -l 意义|](https://img-blog.csdn.net/20170820002015682?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemh1b3lhXw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
-![](https://img-blog.csdn.net/20170820002015682?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemh1b3lhXw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+
+![ls -l 意义](https://img-blog.csdn.net/20170820002015682?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemh1b3lhXw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTMyMzYyODYsODc1NDY5MzQzLC0xNz
-UzNDIzMzUyLDgzNjU1Nzk3NiwxOTYyNzc5NDYzLDc2Nzg1MTYw
-MiwtMzI0NDc4NzU2LDIwMDM0MTI4NTcsMTAzMTE0MTUyOF19
+eyJoaXN0b3J5IjpbLTQyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NT
+M0MjMzNTIsODM2NTU3OTc2LDE5NjI3Nzk0NjMsNzY3ODUxNjAy
+LC0zMjQ0Nzg3NTYsMjAwMzQxMjg1NywxMDMxMTQxNTI4XX0=
 -->
