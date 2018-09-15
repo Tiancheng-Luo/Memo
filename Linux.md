@@ -290,9 +290,26 @@ sudo apt-get install openssh-server
 netstat -tlp  
 如显示如下结果，即表明服务启动成功：
 1.  tcp 0 0 *:ssh *:* LISTEN
+## 编译coreutils 失败
+./configure 
+./configure: line 4746: gl_EARLY: command not found
+./configure: line 4747: gl_INIT: command not found
+./configure: line 4748: coreutils_MACROS: command not found
+./configure: line 4815: syntax error near unexpected token `-Werror,'
+./configure: line 4815: `  gl_WARN_ADD(-Werror, WERROR_CFLAGS)'
+
+automake
+error: GL_GENERATE_ALLOCA_H does not appear in AM_CONDITIONAL
+Makefile.am:211:   'lib/local.mk' included from here
+lib/local.mk:1:   'lib/gnulib.mk' included from here
+lib/gnulib.mk:271: error: GL_GENERATE_BYTESWAP_H does not appear in AM_CONDITIONAL
+Makefile.am:211:   'lib/local.mk' included from here
+lib/local.mk:1:   'lib/gnulib.mk' included from here
+lib/gnulib.mk:711: error: GL_GENERATE_ERRNO_H does not appear in AM_CONDITIONAL
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDgyNTMxMSw5MjQyMDAxNzksLTQyMT
-A1NTY3Myw4NzU0NjkzNDMsLTE3NTM0MjMzNTIsODM2NTU3OTc2
-LDE5NjI3Nzk0NjMsNzY3ODUxNjAyLC0zMjQ0Nzg3NTYsMjAwMz
-QxMjg1NywxMDMxMTQxNTI4XX0=
+eyJoaXN0b3J5IjpbLTEwNDQwNTM5MjQsLTM2NDgyNTMxMSw5Mj
+QyMDAxNzksLTQyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NTM0MjMz
+NTIsODM2NTU3OTc2LDE5NjI3Nzk0NjMsNzY3ODUxNjAyLC0zMj
+Q0Nzg3NTYsMjAwMzQxMjg1NywxMDMxMTQxNTI4XX0=
 -->
