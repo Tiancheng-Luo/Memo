@@ -251,7 +251,16 @@ fswatch -r #recursively
 fswatch -i #recursively
 ```
 
+## Coreutils
+### stat
+ stat -c --format
+ stat -f --filesystem
+ 
+ ### gpg gpg2
+ 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2Mjc3OTQ2Myw3Njc4NTE2MDIsLTMyND
-Q3ODc1NiwyMDAzNDEyODU3LDEwMzExNDE1MjhdfQ==
+eyJoaXN0b3J5IjpbODM2NTU3OTc2LDE5NjI3Nzk0NjMsNzY3OD
+UxNjAyLC0zMjQ0Nzg3NTYsMjAwMzQxMjg1NywxMDMxMTQxNTI4
+XX0=
 -->
