@@ -279,8 +279,13 @@ gpg: binary signature, digest algorithm SHA256
 ## ls -l
 
 ![ls -l 意义](https://img-blog.csdn.net/20170820002015682?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemh1b3lhXw==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
+
+
+## Gettext
+yum install libtool gettext intltool
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NT
-M0MjMzNTIsODM2NTU3OTc2LDE5NjI3Nzk0NjMsNzY3ODUxNjAy
-LC0zMjQ0Nzg3NTYsMjAwMzQxMjg1NywxMDMxMTQxNTI4XX0=
+eyJoaXN0b3J5IjpbOTI0MjAwMTc5LC00MjEwNTU2NzMsODc1ND
+Y5MzQzLC0xNzUzNDIzMzUyLDgzNjU1Nzk3NiwxOTYyNzc5NDYz
+LDc2Nzg1MTYwMiwtMzI0NDc4NzU2LDIwMDM0MTI4NTcsMTAzMT
+E0MTUyOF19
 -->
