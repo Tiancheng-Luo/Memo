@@ -261,6 +261,7 @@ fswatch -i #recursively
 gpg: Signature made Mon 02 Jul 2018 09:41:43 AM CST using RSA key ID 306037D9
 gpg: Can't check signature: No public key
  
+gpg --recv-keys 306037D9   # --keyserver  keys.gnupg.net
 
 
 gpg --verify --verbose coreutils-8.30.tar.xz.sig  coreutils-8.30.tar.xz
@@ -276,7 +277,7 @@ Primary key fingerprint: 6C37 DC12 121A 5006 BC1D  B804 DF6F D971 3060 37D9
 gpg: binary signature, digest algorithm SHA256
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTg5NDc5MSwtMTc1MzQyMzM1Miw4Mz
-Y1NTc5NzYsMTk2Mjc3OTQ2Myw3Njc4NTE2MDIsLTMyNDQ3ODc1
-NiwyMDAzNDEyODU3LDEwMzExNDE1MjhdfQ==
+eyJoaXN0b3J5IjpbODc1NDY5MzQzLC0xNzUzNDIzMzUyLDgzNj
+U1Nzk3NiwxOTYyNzc5NDYzLDc2Nzg1MTYwMiwtMzI0NDc4NzU2
+LDIwMDM0MTI4NTcsMTAzMTE0MTUyOF19
 -->
