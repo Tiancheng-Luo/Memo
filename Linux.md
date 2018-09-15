@@ -262,8 +262,21 @@ gpg: Signature made Mon 02 Jul 2018 09:41:43 AM CST using RSA key ID 306037D9
 gpg: Can't check signature: No public key
  
 
+
+gpg --verify --verbose coreutils-8.30.tar.xz.sig  coreutils-8.30.tar.xz
+Version: GnuPG v2
+gpg: armor header: 
+gpg: Signature made Mon 02 Jul 2018 09:41:43 AM CST using RSA key ID 306037D9
+gpg: using PGP trust model
+gpg: Good signature from "P谩draig Brady <P@draigBrady.com>"
+gpg:                 aka "P谩draig Brady <pixelbeat@gnu.org>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6C37 DC12 121A 5006 BC1D  B804 DF6F D971 3060 37D9
+gpg: binary signature, digest algorithm SHA256
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTM0MjMzNTIsODM2NTU3OTc2LDE5Nj
-I3Nzk0NjMsNzY3ODUxNjAyLC0zMjQ0Nzg3NTYsMjAwMzQxMjg1
-NywxMDMxMTQxNTI4XX0=
+eyJoaXN0b3J5IjpbMTAyNTg5NDc5MSwtMTc1MzQyMzM1Miw4Mz
+Y1NTc5NzYsMTk2Mjc3OTQ2Myw3Njc4NTE2MDIsLTMyNDQ3ODc1
+NiwyMDAzNDEyODU3LDEwMzExNDE1MjhdfQ==
 -->
