@@ -257,10 +257,13 @@ fswatch -i #recursively
  stat -f --filesystem
  
  ### gpg gpg2
+ gpg --verify coreutils-8.30.tar.xz.sig  coreutils-8.30.tar.xz
+gpg: Signature made Mon 02 Jul 2018 09:41:43 AM CST using RSA key ID 306037D9
+gpg: Can't check signature: No public key
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2NTU3OTc2LDE5NjI3Nzk0NjMsNzY3OD
-UxNjAyLC0zMjQ0Nzg3NTYsMjAwMzQxMjg1NywxMDMxMTQxNTI4
-XX0=
+eyJoaXN0b3J5IjpbLTE3NTM0MjMzNTIsODM2NTU3OTc2LDE5Nj
+I3Nzk0NjMsNzY3ODUxNjAyLC0zMjQ0Nzg3NTYsMjAwMzQxMjg1
+NywxMDMxMTQxNTI4XX0=
 -->
