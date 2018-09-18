@@ -232,6 +232,8 @@ M4 依赖于: Bash, Binutils, Coreutils, Diffutils, GCC, Gettext, Glibc, Grep, M
 
 ## 安装GNU开发工具
 ```bash
+# 显示全部 group
+yum grouplist
 yum group install 'Development Tools' # CENTOS
 dnf group install 'Development Tools  # FEDORA
 sudo apt-get install build-essential 	# Debian/Ubuntu
@@ -342,9 +344,9 @@ I. 控制芯片
 
 > 一般计算机网卡都工作在非混杂模式下，此时网卡只接受来自网络端口的目的地址指向自己的数据。当网卡工作在混杂模式下时，网卡会捕获来自接口的所有数据并交给相应的驱动程序。网卡的混杂模式一般在网络管理员分析网络数据作为网络故障诊断手段时用到，同时这个模式也被网络黑客利用来作为网络数据窃听的入口。在Linux操作系统中设置网卡混杂模式时需要管理员权限。在Windows操作系统和Linux操作系统中都有使用混杂模式的抓包工具，比如著名的开源软件Wireshark。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUwMjE2MDQsOTkyMTcyOTMyLC0xMD
-Q0MDUzOTI0LC0zNjQ4MjUzMTEsOTI0MjAwMTc5LC00MjEwNTU2
-NzMsODc1NDY5MzQzLC0xNzUzNDIzMzUyLDgzNjU1Nzk3NiwxOT
-YyNzc5NDYzLDc2Nzg1MTYwMiwtMzI0NDc4NzU2LDIwMDM0MTI4
-NTcsMTAzMTE0MTUyOF19
+eyJoaXN0b3J5IjpbMTMyOTE5MTA2MCwtMTc0NTAyMTYwNCw5OT
+IxNzI5MzIsLTEwNDQwNTM5MjQsLTM2NDgyNTMxMSw5MjQyMDAx
+NzksLTQyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NTM0MjMzNTIsOD
+M2NTU3OTc2LDE5NjI3Nzk0NjMsNzY3ODUxNjAyLC0zMjQ0Nzg3
+NTYsMjAwMzQxMjg1NywxMDMxMTQxNTI4XX0=
 -->
