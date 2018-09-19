@@ -391,10 +391,93 @@ https://www.southcity-oldboy.com/1528.html
  linux 服务器带宽测试脚本ZBench
  ```
  wget https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench-CN.sh
+ # or
+ 如果乱码，用下面英文版的脚本  
+`wget https://raw.githubusercontent.com/FunctionClub/ZBench/master/ZBench.sh`  
+之后执行这个脚本  
+`bash ZBench.sh`  
+首先它会安装一些程序
+
+```
+Installing Virt-What......
+Installing ca-certificates......
+Installing Besttrace......
+Installing SpeedTest......
+Installing ZPing-CN.py......
+```
+
+接着开始测试速度
+
+```
+--------------------------------------------------------------------------
+CPU 型号             : Virtual CPU a7769a6388d5
+CPU 核心数           : 1
+CPU 频率             : 2394.454 MHz
+总硬盘大小           : 25.5 GB (7.8 GB Used)
+总内存大小           : 984 MB (81 MB Used)
+SWAP大小             : 3999 MB (0 MB Used)
+开机时长             : 0 days, 15 hour 47 min
+系统负载             : 0.51, 0.14, 0.04
+系统                 : Ubuntu 16.04.3 LTS
+架构                 : x86_64 (64 Bit)
+内核                 : 4.14.10-041410-generic
+虚拟化平台           : kvm
+--------------------------------------------------------------------------
+硬盘I/O (第一次测试) : 283 MB/s
+硬盘I/O (第二次测试) : 358 MB/s
+硬盘I/O (第三次测试) : 363 MB/s
+--------------------------------------------------------------------------
+节点名称                  IP地址            下载速度            延迟      
+CacheFly                  204.93.150.152    76.7MB/s            2.383 ms    
+Linode, Tokyo, JP         106.187.96.148    82.4MB/s            2.468 ms    
+Linode, Singapore, SG     139.162.23.4      28.3MB/s            69.134 ms   
+Linode, London, UK        176.58.107.39     5.62MB/s            226.238 ms  
+Linode, Frankfurt, DE     139.162.130.8     8.15MB/s            248.216 ms  
+Linode, Fremont, CA       50.116.14.9       15.8MB/s            114.213 ms  
+Softlayer, Dallas, TX     173.192.68.18     3.11MB/s            139.679 ms  
+Softlayer, Seattle, WA    67.228.112.250    18.5MB/s            84.424 ms   
+Softlayer, Frankfurt, DE  159.122.69.4      4.42MB/s            228.604 ms  
+Softlayer, Singapore, SG  119.81.28.170     15.2MB/s            73.177 ms   
+Softlayer, HongKong, CN   119.81.130.170    31.0MB/s            55.448 ms   
+--------------------------------------------------------------------------
+节点名称                  上传速度          下载速度            延迟      
+上海电信                  17.59 Mbit/s      28.03 Mbit/s        269.331 ms 
+西安电信                  185.76 Mbit/s     318.52 Mbit/s       173.229 ms 
+上海联通                  10.35 Mbit/s      92.45 Mbit/s        395.554 ms 
+重庆联通                  135.57 Mbit/s     66.96 Mbit/s        92.243 ms  
+西安移动                  396.29 Mbit/s     280.16 Mbit/s       69.29 ms   
+上海移动                  56.87 Mbit/s      52.00 Mbit/s        85.962 ms  
+成都移动                  143.48 Mbit/s     300.27 Mbit/s       115.454 ms 
+--------------------------------------------------------------------------
+合肥        : 83.87 ms   北京        : 84.77 ms   武汉        : 77.03 ms   
+昌吉        : 158.22 ms  成都        : 128.18 ms  上海        : 102.67 ms  
+太原        : 82.6 ms    杭州        : 180.87 ms  宁夏        : 91.97 ms   
+呼和浩特    : Fail       南昌        : 72.73 ms   拉萨        : 120.74 ms  
+乌鲁木齐    : 111.55 ms  天津        : 72.89 ms   襄阳        : 116.08 ms  
+郑州        : 130.13 ms  沈阳        : 81.99 ms   兰州        : 89.64 ms   
+哈尔滨      : 81.82 ms   宁波        : 100.16 ms  苏州        : Fail       
+济南        : 128.41 ms  西安        : 76.48 ms   西宁        : 89.09 ms   
+重庆        : Fail       深圳        : 101.64 ms  南京        : 106.04 ms  
+长沙        : 53.59 ms   长春        : 84.48 ms   福州        : 64.04 ms   
+--------------------------------------------------------------------------
+您的测评报告已保存在 /root/report.html
+
+你想现在查看您的测评报告吗? [y/n]: y
+
+访问 http://ip:8001/index.html 查看您的测试报告，按 Ctrl + C 退出
+Serving HTTP on 0.0.0.0 port 8001 ...
+198.13.55.44 - - [20/Jan/2018 01:49:23] "GET /index.html HTTP/1.1" 200 -
+198.13.55.44 - - [20/Jan/2018 01:49:26] code 404, message File not found
+198.13.55.44 - - [20/Jan/2018 01:49:26] "GET /favicon.ico HTTP/1.1" 404 -
+```
+
+没错，如测试报告中写的那样，它还提供了一个web界面来 展示结果，就如这篇文章顶部所示的图片那样
+
+值得注意的是如果你把这个脚本放在本地测试，可能会在测试国外节点的时候卡住，你懂得
  ```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NTEyOTY5LDkwODY0ODI5LC0xMjYxMz
+eyJoaXN0b3J5IjpbNjMyMzE1NDMyLDkwODY0ODI5LC0xMjYxMz
 Y5NDAsMzA3MTE5OTA1LDEzMjkxOTEwNjAsLTE3NDUwMjE2MDQs
 OTkyMTcyOTMyLC0xMDQ0MDUzOTI0LC0zNjQ4MjUzMTEsOTI0Mj
 AwMTc5LC00MjEwNTU2NzMsODc1NDY5MzQzLC0xNzUzNDIzMzUy
