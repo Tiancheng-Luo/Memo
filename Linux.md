@@ -387,6 +387,8 @@ I. 控制芯片
 
 > 一般计算机网卡都工作在非混杂模式下，此时网卡只接受来自网络端口的目的地址指向自己的数据。当网卡工作在混杂模式下时，网卡会捕获来自接口的所有数据并交给相应的驱动程序。网卡的混杂模式一般在网络管理员分析网络数据作为网络故障诊断手段时用到，同时这个模式也被网络黑客利用来作为网络数据窃听的入口。在Linux操作系统中设置网卡混杂模式时需要管理员权限。在Windows操作系统和Linux操作系统中都有使用混杂模式的抓包工具，比如著名的开源软件Wireshark。
 ## 现成的测试脚本
+搜索 云服务器 测试脚本
+https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&rsv_idx=2&tn=baiduhome_pg&wd=%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%20%E6%B5%8B%E8%AF%95%E8%84%9A%E6%9C%AC&rsv_spt=1&oq=%25E4%25BA%2591%25E6%259C%258D%25E5%258A%25A1%25E5%2599%25A8%2520%25E6%25B5%258B%25E8%25AF%2595&rsv_pq=b95606050001aecd&rsv_t=a0798dv6kw1oXE6d4pPhoajEI0rWCwJvr0MXXk8yh0%2BZApS5dRwtwrBe55ZJyYCnRYVA&rqlang=cn&rsv_enter=1&rsv_sug3=3&rsv_sug1=2&rsv_sug7=100&rsv_sug2=0&inputT=2013&rsv_sug4=2959
 https://www.southcity-oldboy.com/1528.html
  linux 服务器带宽测试脚本ZBench
  ```
@@ -479,7 +481,7 @@ Serving HTTP on 0.0.0.0 port 8001 ...
 ## MySQL 计划执行
 https://yq.aliyun.com/articles/602513?spm=a2c4e.11153940.topwz.1.2945291aVvrZbH
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NjU1MTcwNyw5MDg2NDgyOSwtMTI2MT
+eyJoaXN0b3J5IjpbMTY5NjgyNTU5OSw5MDg2NDgyOSwtMTI2MT
 M2OTQwLDMwNzExOTkwNSwxMzI5MTkxMDYwLC0xNzQ1MDIxNjA0
 LDk5MjE3MjkzMiwtMTA0NDA1MzkyNCwtMzY0ODI1MzExLDkyND
 IwMDE3OSwtNDIxMDU1NjczLDg3NTQ2OTM0MywtMTc1MzQyMzM1
