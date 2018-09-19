@@ -31,6 +31,43 @@ wget  [http://mirrors.kernel.org/gnu/libtool/libtool-2.2.6b.tar.gz](http://mirro
 && ./configure –prefix=/usr/local  
 make && make install
 ```
+
+## 升级glib 先删除后装
+https://blog.csdn.net/Aries1995/article/details/48968063
+```bash
+//32位版本  
+#rm -rf /usr/bin/glib*  
+#rm -rf /usr/include/glib-2.0  
+#rm -rf /usr/lib/glib*  
+  
+//64位版本要多删下面两个  
+#rm -rf /usr/lib64/glib*  
+#rm -rf /usr/lib64/glib-2.0  
+  
+鼠标双击解压：glib-2.40.0.tar.xz  
+//进入glib-2.40.0目录  
+#cd glib-2.40.0  
+  
+//配置32位系统临时环境，自己根据系统选  
+#export LD_LIBRARY_PATH=/usr/lib  
+#export PKG_CONFIG_PATH=/usr/lib/pkgconfig  
+  
+//配置64位系统临时环境，自己根据系统选  
+#export LD_LIBRARY_PATH=/usr/lib64  
+#export PKG_CONFIG_PATH=/usr/lib64/pkgconfig  
+  
+//配置32位系统，自己根据系统选  
+#./configure --prefix=/usr --libdir=/usr/lib  
+  
+//配置64位系统，自己根据系统选  
+#./configure --prefix=/usr --libdir=/usr/lib64  
+  
+//编译  
+#make  
+//安装  
+#make install
+```
+
 ## umask
 ```bash
 下面是另外一个例子，假设这次u m a s k值为0 2 2：
@@ -350,9 +387,10 @@ I. 控制芯片
 
 > 一般计算机网卡都工作在非混杂模式下，此时网卡只接受来自网络端口的目的地址指向自己的数据。当网卡工作在混杂模式下时，网卡会捕获来自接口的所有数据并交给相应的驱动程序。网卡的混杂模式一般在网络管理员分析网络数据作为网络故障诊断手段时用到，同时这个模式也被网络黑客利用来作为网络数据窃听的入口。在Linux操作系统中设置网卡混杂模式时需要管理员权限。在Windows操作系统和Linux操作系统中都有使用混杂模式的抓包工具，比如著名的开源软件Wireshark。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3MTE5OTA1LDEzMjkxOTEwNjAsLTE3ND
-UwMjE2MDQsOTkyMTcyOTMyLC0xMDQ0MDUzOTI0LC0zNjQ4MjUz
-MTEsOTI0MjAwMTc5LC00MjEwNTU2NzMsODc1NDY5MzQzLC0xNz
-UzNDIzMzUyLDgzNjU1Nzk3NiwxOTYyNzc5NDYzLDc2Nzg1MTYw
-MiwtMzI0NDc4NzU2LDIwMDM0MTI4NTcsMTAzMTE0MTUyOF19
+eyJoaXN0b3J5IjpbLTEyNjEzNjk0MCwzMDcxMTk5MDUsMTMyOT
+E5MTA2MCwtMTc0NTAyMTYwNCw5OTIxNzI5MzIsLTEwNDQwNTM5
+MjQsLTM2NDgyNTMxMSw5MjQyMDAxNzksLTQyMTA1NTY3Myw4Nz
+U0NjkzNDMsLTE3NTM0MjMzNTIsODM2NTU3OTc2LDE5NjI3Nzk0
+NjMsNzY3ODUxNjAyLC0zMjQ0Nzg3NTYsMjAwMzQxMjg1NywxMD
+MxMTQxNTI4XX0=
 -->
