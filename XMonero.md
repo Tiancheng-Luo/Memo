@@ -20,9 +20,10 @@ sudo yum install centos-release-scl epel-release
 ```
 42HKvpNhTWCHn6ctGubzXadXd5D84EdLkZdUVf2MXexqCvZnnMNWuHqHmEL5YxvJJcC1WKtsgX3QhWBncBwzFs2m19vkjBR
 
-**sysctl -w vm.nr_hugepages=127**
+**sysctl -w vm.nr_hugepages=128**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczNDAwMzEwLC0zMTkzNzg3MDMsLTE1OD
-gyOTI2MDYsLTE1MDAyNzA5MjYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTM4MjIxNTUwOSwyNzM0MDAzMTAsLTMxOT
+M3ODcwMywtMTU4ODI5MjYwNiwtMTUwMDI3MDkyNiw3MzA5OTgx
+MTZdfQ==
 -->
