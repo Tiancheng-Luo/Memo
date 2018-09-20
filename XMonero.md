@@ -18,12 +18,16 @@ sudo yum install centos-release-scl epel-release
     cmake3 -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF ..
     make install
 ```
+
+
 42HKvpNhTWCHn6ctGubzXadXd5D84EdLkZdUVf2MXexqCvZnnMNWuHqHmEL5YxvJJcC1WKtsgX3QhWBncBwzFs2m19vkjBR
 
 **sysctl -w vm.nr_hugepages=128**
+mine.xmrpool.net:3333
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjIxNTUwOSwyNzM0MDAzMTAsLTMxOT
-M3ODcwMywtMTU4ODI5MjYwNiwtMTUwMDI3MDkyNiw3MzA5OTgx
-MTZdfQ==
+eyJoaXN0b3J5IjpbODMwMjgzMTUwLDEzODIyMTU1MDksMjczND
+AwMzEwLC0zMTkzNzg3MDMsLTE1ODgyOTI2MDYsLTE1MDAyNzA5
+MjYsNzMwOTk4MTE2XX0=
 -->
