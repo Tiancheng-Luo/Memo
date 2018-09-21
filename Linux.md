@@ -2,7 +2,7 @@
 建立一个全局变量temp, 表示为当前新建工作目录,
 以它为坐标进行活动
 解除temp
-
+参考xargs mkdir
 
 ## GNU Build system
 ```bash
@@ -503,13 +503,15 @@ ln -sv /usr/local/lib/python3.7/site-packages/pip
 #### virtualenv
 ```
 mkdir myproject
+cd myproject/
+virtualenv --no-site-packages venv
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA5MTk4NTEsLTE0MjIwNDkwMjQsLTExNT
-k4MzUwMjAsMTgxMTI3ODE2LDYxNTgwOTQ3NSwtMTI4ODI2NjUy
-OCwyMDU0NzA3NTE0LDkwODY0ODI5LC0xMjYxMzY5NDAsMzA3MT
-E5OTA1LDEzMjkxOTEwNjAsLTE3NDUwMjE2MDQsOTkyMTcyOTMy
-LC0xMDQ0MDUzOTI0LC0zNjQ4MjUzMTEsOTI0MjAwMTc5LC00Mj
-EwNTU2NzMsODc1NDY5MzQzLC0xNzUzNDIzMzUyLDgzNjU1Nzk3
-Nl19
+eyJoaXN0b3J5IjpbLTEwOTExNTM4NzcsLTE0MjIwNDkwMjQsLT
+ExNTk4MzUwMjAsMTgxMTI3ODE2LDYxNTgwOTQ3NSwtMTI4ODI2
+NjUyOCwyMDU0NzA3NTE0LDkwODY0ODI5LC0xMjYxMzY5NDAsMz
+A3MTE5OTA1LDEzMjkxOTEwNjAsLTE3NDUwMjE2MDQsOTkyMTcy
+OTMyLC0xMDQ0MDUzOTI0LC0zNjQ4MjUzMTEsOTI0MjAwMTc5LC
+00MjEwNTU2NzMsODc1NDY5MzQzLC0xNzUzNDIzMzUyLDgzNjU1
+Nzk3Nl19
 -->
