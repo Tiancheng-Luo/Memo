@@ -509,9 +509,11 @@ virtualenv --no-site-packages venv
 # Python环境，可以用source进入该环境：
 source venv/bin/activate
 # (venv)Mac:myproject michael$
+# 退出当前的`venv`环境，使用`deactivate`命令：
+deactivate 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNzU2MTg4NSwtMTQyMjA0OTAyNCwtMT
+eyJoaXN0b3J5IjpbLTk2MDk4NTg0OSwtMTQyMjA0OTAyNCwtMT
 E1OTgzNTAyMCwxODExMjc4MTYsNjE1ODA5NDc1LC0xMjg4MjY2
 NTI4LDIwNTQ3MDc1MTQsOTA4NjQ4MjksLTEyNjEzNjk0MCwzMD
 cxMTk5MDUsMTMyOTE5MTA2MCwtMTc0NTAyMTYwNCw5OTIxNzI5
