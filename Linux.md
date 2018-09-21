@@ -501,17 +501,21 @@ ln -sv /usr/local/lib/python3.7/site-packages/pip
 /usr/local/bin/python3.7m /usr/local/bin/python3.7m-config是什么文件?
 
 #### virtualenv
-```
+```python
 mkdir myproject
 cd myproject/
 virtualenv --no-site-packages venv
+# 新建的Python环境被放到当前目录下的venv目录。有了venv这个
+# Python环境，可以用source进入该环境：
+source venv/bin/activate
+# (venv)Mac:myproject michael$
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTExNTM4NzcsLTE0MjIwNDkwMjQsLT
-ExNTk4MzUwMjAsMTgxMTI3ODE2LDYxNTgwOTQ3NSwtMTI4ODI2
-NjUyOCwyMDU0NzA3NTE0LDkwODY0ODI5LC0xMjYxMzY5NDAsMz
-A3MTE5OTA1LDEzMjkxOTEwNjAsLTE3NDUwMjE2MDQsOTkyMTcy
-OTMyLC0xMDQ0MDUzOTI0LC0zNjQ4MjUzMTEsOTI0MjAwMTc5LC
-00MjEwNTU2NzMsODc1NDY5MzQzLC0xNzUzNDIzMzUyLDgzNjU1
-Nzk3Nl19
+eyJoaXN0b3J5IjpbMjEyNzU2MTg4NSwtMTQyMjA0OTAyNCwtMT
+E1OTgzNTAyMCwxODExMjc4MTYsNjE1ODA5NDc1LC0xMjg4MjY2
+NTI4LDIwNTQ3MDc1MTQsOTA4NjQ4MjksLTEyNjEzNjk0MCwzMD
+cxMTk5MDUsMTMyOTE5MTA2MCwtMTc0NTAyMTYwNCw5OTIxNzI5
+MzIsLTEwNDQwNTM5MjQsLTM2NDgyNTMxMSw5MjQyMDAxNzksLT
+QyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NTM0MjMzNTIsODM2NTU3
+OTc2XX0=
 -->
