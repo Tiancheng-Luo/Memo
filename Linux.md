@@ -495,6 +495,7 @@ nohup ./xmr-stak >> xmr.log 2>&1 &
 
 ## 安装 python
 find / -name pip
+发现这是个文件夹site-packages
  ln -sv /usr/local/bin/python3.7 /usr/bin/py3
  py3 -m pip install --upgrade pip
 ln -sv /usr/local/bin/pip /usr/bin/
@@ -515,11 +516,11 @@ source venv/bin/activate
 deactivate 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTI1OTMxMSwtOTYwOTg1ODQ5LC0xND
-IyMDQ5MDI0LC0xMTU5ODM1MDIwLDE4MTEyNzgxNiw2MTU4MDk0
-NzUsLTEyODgyNjY1MjgsMjA1NDcwNzUxNCw5MDg2NDgyOSwtMT
-I2MTM2OTQwLDMwNzExOTkwNSwxMzI5MTkxMDYwLC0xNzQ1MDIx
-NjA0LDk5MjE3MjkzMiwtMTA0NDA1MzkyNCwtMzY0ODI1MzExLD
-kyNDIwMDE3OSwtNDIxMDU1NjczLDg3NTQ2OTM0MywtMTc1MzQy
-MzM1Ml19
+eyJoaXN0b3J5IjpbLTE5MjE0Mzk2MTksLTk2MDk4NTg0OSwtMT
+QyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODExMjc4MTYsNjE1ODA5
+NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4NjQ4MjksLT
+EyNjEzNjk0MCwzMDcxMTk5MDUsMTMyOTE5MTA2MCwtMTc0NTAy
+MTYwNCw5OTIxNzI5MzIsLTEwNDQwNTM5MjQsLTM2NDgyNTMxMS
+w5MjQyMDAxNzksLTQyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NTM0
+MjMzNTJdfQ==
 -->
