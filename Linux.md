@@ -495,10 +495,12 @@ nohup ./xmr-stak >> xmr.log 2>&1 &
 
 ## 安装 python
 find / -name pip
-ln -sv /usr/local/lib/python3.7/site-packages/pip
- /usr/bin/pip3
+ ln -sv /usr/local/bin/python3.7 /usr/bin/py3
+ py3 -m pip install --upgrade pip
+ln -sv /usr/local/bin/pip /usr/bin/
 
 /usr/local/bin/python3.7m /usr/local/bin/python3.7m-config是什么文件?
+
 
 #### virtualenv
 ```python
@@ -513,11 +515,11 @@ source venv/bin/activate
 deactivate 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDk4NTg0OSwtMTQyMjA0OTAyNCwtMT
-E1OTgzNTAyMCwxODExMjc4MTYsNjE1ODA5NDc1LC0xMjg4MjY2
-NTI4LDIwNTQ3MDc1MTQsOTA4NjQ4MjksLTEyNjEzNjk0MCwzMD
-cxMTk5MDUsMTMyOTE5MTA2MCwtMTc0NTAyMTYwNCw5OTIxNzI5
-MzIsLTEwNDQwNTM5MjQsLTM2NDgyNTMxMSw5MjQyMDAxNzksLT
-QyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NTM0MjMzNTIsODM2NTU3
-OTc2XX0=
+eyJoaXN0b3J5IjpbLTQ1MTI1OTMxMSwtOTYwOTg1ODQ5LC0xND
+IyMDQ5MDI0LC0xMTU5ODM1MDIwLDE4MTEyNzgxNiw2MTU4MDk0
+NzUsLTEyODgyNjY1MjgsMjA1NDcwNzUxNCw5MDg2NDgyOSwtMT
+I2MTM2OTQwLDMwNzExOTkwNSwxMzI5MTkxMDYwLC0xNzQ1MDIx
+NjA0LDk5MjE3MjkzMiwtMTA0NDA1MzkyNCwtMzY0ODI1MzExLD
+kyNDIwMDE3OSwtNDIxMDU1NjczLDg3NTQ2OTM0MywtMTc1MzQy
+MzM1Ml19
 -->
