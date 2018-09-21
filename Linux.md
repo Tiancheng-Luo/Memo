@@ -483,15 +483,21 @@ Serving HTTP on 0.0.0.0 port 8001 ...
 ## MySQL 计划执行
 https://yq.aliyun.com/articles/602513?spm=a2c4e.11153940.topwz.1.2945291aVvrZbH
 
+## 增加log
 * */1 * * * top -n 1 -b >> /root/dev/top.log
 ~
 nohup ./xmr-stak >> xmr.log 2>&1 &
+
+## 安装 python
+find / -name pip
+ln -sv /usr/local/python/bin/pip /usr/bin/pip
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNT
-Q3MDc1MTQsOTA4NjQ4MjksLTEyNjEzNjk0MCwzMDcxMTk5MDUs
-MTMyOTE5MTA2MCwtMTc0NTAyMTYwNCw5OTIxNzI5MzIsLTEwND
-QwNTM5MjQsLTM2NDgyNTMxMSw5MjQyMDAxNzksLTQyMTA1NTY3
-Myw4NzU0NjkzNDMsLTE3NTM0MjMzNTIsODM2NTU3OTc2LDE5Nj
-I3Nzk0NjMsNzY3ODUxNjAyLC0zMjQ0Nzg3NTYsMjAwMzQxMjg1
-N119
+eyJoaXN0b3J5IjpbLTEwOTY0MzQwNzksNjE1ODA5NDc1LC0xMj
+g4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4NjQ4MjksLTEyNjEzNjk0
+MCwzMDcxMTk5MDUsMTMyOTE5MTA2MCwtMTc0NTAyMTYwNCw5OT
+IxNzI5MzIsLTEwNDQwNTM5MjQsLTM2NDgyNTMxMSw5MjQyMDAx
+NzksLTQyMTA1NTY3Myw4NzU0NjkzNDMsLTE3NTM0MjMzNTIsOD
+M2NTU3OTc2LDE5NjI3Nzk0NjMsNzY3ODUxNjAyLC0zMjQ0Nzg3
+NTZdfQ==
 -->
