@@ -243,7 +243,12 @@ Upgrade             (  2 Dependent packages)
 Total download size: 64 M
 #忘了运行scl enable
 #出现错误
-
+Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:29 (message):
+  g++ version must be at least 5.1!
+-- Configuring incomplete, errors occurred!
+See also "/root/dev/xmr-stak/build/CMakeFiles/CMakeOutput.log".
+#查找发现已经是CENTOS最新的G++发现是忘了运行scl enable devtoolset-4 bash
 #scl enable devtoolset-4 bash
 [root@VM_16_15_centos xmr-stak]# cmake3 -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF ..
 CMake Error: The source directory "/root/dev" does not appear to contain CMakeLists.txt.
@@ -333,7 +338,7 @@ Install the project...
 -- Install configuration: "Release"
 xmr-stak installed to folder 'bin'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTIwODkxNyw2ODUzMjQxNDUsODMwMj
+eyJoaXN0b3J5IjpbMTUwMzQ3MjM4OCw2ODUzMjQxNDUsODMwMj
 gzMTUwLDEzODIyMTU1MDksMjczNDAwMzEwLC0zMTkzNzg3MDMs
 LTE1ODgyOTI2MDYsLTE1MDAyNzA5MjYsNzMwOTk4MTE2XX0=
 -->
