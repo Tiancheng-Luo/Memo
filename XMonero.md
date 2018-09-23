@@ -241,8 +241,99 @@ Install  8 Packages (+29 Dependent packages)
 Upgrade             (  2 Dependent packages)
 
 Total download size: 64 M
+#忘了运行scl enable
+#出现错误
+
+#scl enable devtoolset-4 bash
+[root@VM_16_15_centos xmr-stak]# cmake3 -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF ..
+CMake Error: The source directory "/root/dev" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+[root@VM_16_15_centos xmr-stak]# cd build
+[root@VM_16_15_centos build]# cmake3 -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF ..
+CMake Error at CMakeLists.txt:29 (message):
+  g++ version must be at least 5.1!
+
+
+-- Configuring incomplete, errors occurred!
+See also "/root/dev/xmr-stak/build/CMakeFiles/CMakeOutput.log".
+[root@VM_16_15_centos build]# rm -rf build/*
+[root@VM_16_15_centos build]# ls
+CMakeCache.txt  CMakeFiles
+[root@VM_16_15_centos build]# cd ..
+[root@VM_16_15_centos xmr-stak]# ls
+build  CMakeLists.txt   doc         LICENSE    scripts               xmrstak
+CI     CONTRIBUTING.md  Dockerfile  README.md  THIRD-PARTY-LICENSES
+[root@VM_16_15_centos xmr-stak]# cd build/
+[root@VM_16_15_centos build]# rm -rf *
+[root@VM_16_15_centos build]# ls
+[root@VM_16_15_centos build]# cmake3 -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF ..
+-- The C compiler identification is GNU 5.3.1
+-- The CXX compiler identification is GNU 5.3.1
+-- Check for working C compiler: /opt/rh/devtoolset-4/root/usr/bin/cc
+-- Check for working C compiler: /opt/rh/devtoolset-4/root/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /opt/rh/devtoolset-4/root/usr/bin/c++
+-- Check for working CXX compiler: /opt/rh/devtoolset-4/root/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found OpenSSL: /usr/lib64/libcrypto.so (found version "1.0.2k")  
+fatal: Not a git repository (or any of the parent directories): .git
+fatal: Not a git repository (or any of the parent directories): .git
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/dev/xmr-stak/build
+[root@VM_16_15_centos build]# make install
+Scanning dependencies of target xmr-stak-c
+[  3%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_blake256.c.o
+[  7%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_groestl.c.o
+[ 11%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_jh.c.o
+[ 15%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_keccak.c.o
+[ 19%] Building C object CMakeFiles/xmr-stak-c.dir/xmrstak/backend/cpu/crypto/c_skein.c.o
+[ 23%] Linking C static library bin/libxmr-stak-c.a
+[ 23%] Built target xmr-stak-c
+Scanning dependencies of target xmr-stak-backend
+[ 26%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/backendConnector.cpp.o
+[ 30%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/crypto/cryptonight_common.cpp.o
+[ 34%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/hwlocMemory.cpp.o
+[ 38%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/jconf.cpp.o
+[ 42%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/cpu/minethd.cpp.o
+[ 46%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/backend/globalStates.cpp.o
+[ 50%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/http/httpd.cpp.o
+[ 53%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/http/webdesign.cpp.o
+[ 57%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/jconf.cpp.o
+[ 61%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/console.cpp.o
+[ 65%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/executor.cpp.o
+[ 69%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/telemetry.cpp.o
+[ 73%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/uac.cpp.o
+[ 76%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/misc/utility.cpp.o
+[ 80%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/net/jpsock.cpp.o
+[ 84%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/net/socket.cpp.o
+[ 88%] Building CXX object CMakeFiles/xmr-stak-backend.dir/xmrstak/version.cpp.o
+[ 92%] Linking CXX static library bin/libxmr-stak-backend.a
+[ 92%] Built target xmr-stak-backend
+Scanning dependencies of target xmr-stak
+[ 96%] Building CXX object CMakeFiles/xmr-stak.dir/xmrstak/cli/cli-miner.cpp.o
+[100%] Linking CXX executable bin/xmr-stak
+[100%] Built target xmr-stak
+Install the project...
+-- Install configuration: "Release"
+xmr-stak installed to folder 'bin'
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1MzI0MTQ1LDgzMDI4MzE1MCwxMzgyMj
-E1NTA5LDI3MzQwMDMxMCwtMzE5Mzc4NzAzLC0xNTg4MjkyNjA2
-LC0xNTAwMjcwOTI2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTE4NTIwODkxNyw2ODUzMjQxNDUsODMwMj
+gzMTUwLDEzODIyMTU1MDksMjczNDAwMzEwLC0zMTkzNzg3MDMs
+LTE1ODgyOTI2MDYsLTE1MDAyNzA5MjYsNzMwOTk4MTE2XX0=
 -->
