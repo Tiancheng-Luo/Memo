@@ -337,8 +337,18 @@ Scanning dependencies of target xmr-stak
 Install the project...
 -- Install configuration: "Release"
 xmr-stak installed to folder 'bin'
+
+
+
+###########################
+Bianews 7月4日消息，据小葱APP报道，Syscoin区块监测数据显示，超过10亿枚Syscoin是在一个区块87670区块中开采出来的，高于加密货币总供应量应是8.88亿。
+
+thenextweb表示，此前币安出现了可疑的交易，以一枚SYS（现约0.29美元）购买了96个 BTC（价值约623万美元）。尽管Syscoin官方表示存在区块链网络被破坏原因，但在币安上的高额购买订单或导致Syscoin的价格暴涨。
+
+根据Coinmarketcap数据，Syscoin的价格在过去24小时内一度飙升了近90％。比特币开发商Jameson Lopp表示，“它可能类似于2010年在比特币中利用的缓冲区溢出漏洞，该漏洞允许某人创建1840亿BTC。”截至目前，Syscoin官方尚未确认任何漏洞信息。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzQ3MjM4OCw2ODUzMjQxNDUsODMwMj
-gzMTUwLDEzODIyMTU1MDksMjczNDAwMzEwLC0zMTkzNzg3MDMs
-LTE1ODgyOTI2MDYsLTE1MDAyNzA5MjYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE4MDMzOTE2ODUsMTUwMzQ3MjM4OCw2OD
+UzMjQxNDUsODMwMjgzMTUwLDEzODIyMTU1MDksMjczNDAwMzEw
+LC0zMTkzNzg3MDMsLTE1ODgyOTI2MDYsLTE1MDAyNzA5MjYsNz
+MwOTk4MTE2XX0=
 -->
