@@ -274,7 +274,7 @@ groupdel 注：删除用户组；
 groupmod 注：修改用户组信息
 
 groups 注：显示用户所属的用户组
-
+```meow adm dialout cdrom sudo dip plugdev lpadmin sambashare```
 grpck grpconv 注：通过/etc/group和/etc/gshadow 的文件内容来同步或创建/etc/gshadow ，如果/etc/gshadow 不存在则创建；
 
 grpunconv 注：通过/etc/group 和/etc/gshadow 文件内容来同步或创建/etc/group ，然后删除gshadow文件；
@@ -544,11 +544,11 @@ source venv/bin/activate
 deactivate 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5Njc2ODg4OCwtMTkyMTQzOTYxOSwtOT
-YwOTg1ODQ5LC0xNDIyMDQ5MDI0LC0xMTU5ODM1MDIwLDE4MTEy
-NzgxNiw2MTU4MDk0NzUsLTEyODgyNjY1MjgsMjA1NDcwNzUxNC
-w5MDg2NDgyOSwtMTI2MTM2OTQwLDMwNzExOTkwNSwxMzI5MTkx
-MDYwLC0xNzQ1MDIxNjA0LDk5MjE3MjkzMiwtMTA0NDA1MzkyNC
-wtMzY0ODI1MzExLDkyNDIwMDE3OSwtNDIxMDU1NjczLDg3NTQ2
-OTM0M119
+eyJoaXN0b3J5IjpbLTExMDk0NzgyNzgsLTE5MjE0Mzk2MTksLT
+k2MDk4NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODEx
+Mjc4MTYsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MT
+QsOTA4NjQ4MjksLTEyNjEzNjk0MCwzMDcxMTk5MDUsMTMyOTE5
+MTA2MCwtMTc0NTAyMTYwNCw5OTIxNzI5MzIsLTEwNDQwNTM5Mj
+QsLTM2NDgyNTMxMSw5MjQyMDAxNzksLTQyMTA1NTY3Myw4NzU0
+NjkzNDNdfQ==
 -->
