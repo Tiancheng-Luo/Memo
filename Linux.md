@@ -289,6 +289,7 @@ useradd -g testgroup testuser
 //注：：-g 所属组 -d 家目录 -s 所用的SHELL  
 ```
 
+**cat /etc/passwd|grep 用户名**
 ## Snapper
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-snapper
 
@@ -544,7 +545,7 @@ source venv/bin/activate
 deactivate 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDk0NzgyNzgsLTE5MjE0Mzk2MTksLT
+eyJoaXN0b3J5IjpbLTE5NjU0NzE2OTAsLTE5MjE0Mzk2MTksLT
 k2MDk4NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODEx
 Mjc4MTYsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MT
 QsOTA4NjQ4MjksLTEyNjEzNjk0MCwzMDcxMTk5MDUsMTMyOTE5
