@@ -111,7 +111,36 @@ udp6       0      0 :::33475                :::*                                
 udp6       0      0 :::5353                 :::*                                关闭 (0.00/0/0)
 raw6       0      0 :::58                   :::*                    7           关闭 (0.00/0/0)
 raw6       0      0 :::58                   :::*                    7           关闭 (0.00/0/0)
+
+
+
+enp0s3    Link encap:以太网  硬件地址 08:00:27:ed:74:72  
+          inet 地址:10.0.2.15  广播:10.0.2.255  掩码:255.255.255.0
+          inet6 地址: fe80::5256:d05d:f259:5ef9/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  跃点数:1
+          接收数据包:1770 错误:0 丢弃:0 过载:0 帧数:0
+          发送数据包:1118 错误:0 丢弃:0 过载:0 载波:0
+          碰撞:0 发送队列长度:1000 
+          接收字节:149438 (149.4 KB)  发送字节:150336 (150.3 KB)
+
+enp0s8    Link encap:以太网  硬件地址 08:00:27:48:45:d9  
+          inet6 地址: fe80::bb53:5cba:a9eb:16c2/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  跃点数:1
+          接收数据包:27 错误:0 丢弃:0 过载:0 帧数:0
+          发送数据包:346 错误:0 丢弃:0 过载:0 载波:0
+          碰撞:0 发送队列长度:1000 
+          接收字节:9234 (9.2 KB)  发送字节:60657 (60.6 KB)
+
+lo        Link encap:本地环回  
+          inet 地址:127.0.0.1  掩码:255.0.0.0
+          inet6 地址: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  跃点数:1
+          接收数据包:344 错误:0 丢弃:0 过载:0 帧数:0
+          发送数据包:344 错误:0 丢弃:0 过载:0 载波:0
+          碰撞:0 发送队列长度:1000 
+          接收字节:28993 (28.9 KB)  发送字节:28993 (28.9 KB)
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDIyMDQ5LC02NDM2MzM0OTBdfQ==
+eyJoaXN0b3J5IjpbLTYyNzk0MjE0MiwxODE0MjIwNDksLTY0Mz
+YzMzQ5MF19
 -->
