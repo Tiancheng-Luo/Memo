@@ -625,8 +625,7 @@ rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
 ### 校验已安装的软件包
 ```bash
 命令格式： # rpm -V(or --verify, or -y) [options]
-参数列表：pkg1 ... pkgN （将要校验的软件包名）
-软件包选项：
+# 软件包选项：
 -p 校验包文件
 -f 校验所属的软件包
 -a 校验所有的软件包
@@ -642,17 +641,17 @@ rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
 --rcfile 设置rpmrc文件为
 --dbpath 设置RPM 资料库存所在的路径为
 ```
-校验软件包中的文件
+### 校验软件包中的文件
 ```bash
 rpm -K(or --checksig) [options] file1.rpm ... fileN.rpm
-参数：file1.rpm ... fileN.rpm （软件包的文件名）
-详细选项：
 --nopgp 不校验PGP签名
-通用选项：
+# 通用选项：
 -v 显示附加信息
 -vv 显示调试信息
 --rcfile 设置rpmrc文件为
-(7) 其它参数选项
+```
+### 其它参数选项
+```bash
 --rebuilddb 重建RPM资料库
 --initdb 创建一个新的RPM资料库
 --quiet 尽可能的减少输出
@@ -660,11 +659,11 @@ rpm -K(or --checksig) [options] file1.rpm ... fileN.rpm
 --version 显示RPM的当前版本
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MjE5NTgzLDQ4MTc3OTIxMCwtMTkyMT
-QzOTYxOSwtMTk2NTQ3MTY5MCwtMTkyMTQzOTYxOSwtOTYwOTg1
-ODQ5LC0xNDIyMDQ5MDI0LC0xMTU5ODM1MDIwLDE4MTEyNzgxNi
-w2MTU4MDk0NzUsLTEyODgyNjY1MjgsMjA1NDcwNzUxNCw5MDg2
-NDgyOSwtMTI2MTM2OTQwLDMwNzExOTkwNSwxMzI5MTkxMDYwLC
-0xNzQ1MDIxNjA0LDk5MjE3MjkzMiwtMTA0NDA1MzkyNCwtMzY0
-ODI1MzExXX0=
+eyJoaXN0b3J5IjpbMTg3Njg5ODcwNSw0ODE3NzkyMTAsLTE5Mj
+E0Mzk2MTksLTE5NjU0NzE2OTAsLTE5MjE0Mzk2MTksLTk2MDk4
+NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODExMjc4MT
+YsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4
+NjQ4MjksLTEyNjEzNjk0MCwzMDcxMTk5MDUsMTMyOTE5MTA2MC
+wtMTc0NTAyMTYwNCw5OTIxNzI5MzIsLTEwNDQwNTM5MjQsLTM2
+NDgyNTMxMV19
 -->
