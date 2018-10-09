@@ -587,15 +587,20 @@ rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
 --nodeps 不检查依赖性关系  
 --ftpproxy 用 作为 FTP代理  
 --ftpport 指定FTP的端口号为  
-通用选项：  
+# 通用选项：  
 -v 显示附加信息  
 -vv 显示调试信息  
 --root 让RPM将指定的路径做为"根目录"，这样预安装程序和后安装程序都会安装到这个目录下  
 --rcfile 设置rpmrc文件为  
 --dbpath 设置RPM 资料库存所在的路径为
 ```
+### 查询命令
+```bash
+ rpm -q(or --query) [options] pkg1 ... pkgN
+ 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDQ2MjA1MCw0ODE3NzkyMTAsLTE5Mj
+eyJoaXN0b3J5IjpbMTcxNTc3MTgyMCw0ODE3NzkyMTAsLTE5Mj
 E0Mzk2MTksLTE5NjU0NzE2OTAsLTE5MjE0Mzk2MTksLTk2MDk4
 NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODExMjc4MT
 YsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4
