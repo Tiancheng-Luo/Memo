@@ -555,13 +555,24 @@ rpm -i(or --install) [options] file1.rpm ... fileN.rpm
 --rcfile 设置rpmrc文件为  
 --dbpath 设置RPM 资料库存所在的路径为
 ```
-
+### 删除命令  
+```bash
+rpm -e(or --erase) [options] pkg1 ... pkgN  # 参数列表：pkg1 ... pkgN（要删除的软件包）  
+--test 只执行删除的测试  
+--noscripts 不运行预安装和后安装脚本程序  
+--nodeps 不检查依赖性  
+# 通用选项：  
+-vv 显示调试信息  
+--root 让RPM将指定的路径做为"根目录"，这样预安装程序和后安装程序都会安装到这个目录下  
+--rcfile 设置rpmrc文件为  
+--dbpath 设置RPM 资料库存所在的路径为
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMjUwMjU0LDQ4MTc3OTIxMCwtMTkyMT
-QzOTYxOSwtMTk2NTQ3MTY5MCwtMTkyMTQzOTYxOSwtOTYwOTg1
-ODQ5LC0xNDIyMDQ5MDI0LC0xMTU5ODM1MDIwLDE4MTEyNzgxNi
-w2MTU4MDk0NzUsLTEyODgyNjY1MjgsMjA1NDcwNzUxNCw5MDg2
-NDgyOSwtMTI2MTM2OTQwLDMwNzExOTkwNSwxMzI5MTkxMDYwLC
-0xNzQ1MDIxNjA0LDk5MjE3MjkzMiwtMTA0NDA1MzkyNCwtMzY0
-ODI1MzExXX0=
+eyJoaXN0b3J5IjpbMTU1NTM0OTI4NCw0ODE3NzkyMTAsLTE5Mj
+E0Mzk2MTksLTE5NjU0NzE2OTAsLTE5MjE0Mzk2MTksLTk2MDk4
+NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODExMjc4MT
+YsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4
+NjQ4MjksLTEyNjEzNjk0MCwzMDcxMTk5MDUsMTMyOTE5MTA2MC
+wtMTc0NTAyMTYwNCw5OTIxNzI5MzIsLTEwNDQwNTM5MjQsLTM2
+NDgyNTMxMV19
 -->
