@@ -669,8 +669,27 @@ quotaon [-aguv][文件系统...]
 -u 开启用户的磁盘空间限制。
 -v 显示指令执行过程。
 ```
+quota
+1.作用
+quota命令用来显示磁盘使用情况和限制情况，使用权限超级用户。
+```bash
+quota [－g][－u][－v][－p] 用户名 组名  
+  
+3.参数  
+－g：显示用户所在组的磁盘使用限制。  
+－u：显示用户的磁盘使用限制。  
+－v：显示没有分配空间的文件系统的分配情况。  
+－p：显示简化信息。  
+  
+# 4.应用实例  
+在企业应用中磁盘配额非常重要，普通用户要学会看懂自己的磁盘使用情况。要查询自己的磁盘配额可以使用下面命令（下例中用户账号是caojh)：  
+＃quota caojh  
+Disk quotas for user caojh([uid](https://www.baidu.com/s?wd=uid&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao) 502):  
+Filesystem blocks quota limit grace files quota limit grace  
+/[dev](https://www.baidu.com/s?wd=dev&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)/hda3 58 200000 400000 41 500 1000
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTE4ODg5MSwtNjI1MTk3MzAwLDQ4MT
+eyJoaXN0b3J5IjpbMTAxMTY3NTI0NSwtNjI1MTk3MzAwLDQ4MT
 c3OTIxMCwtMTkyMTQzOTYxOSwtMTk2NTQ3MTY5MCwtMTkyMTQz
 OTYxOSwtOTYwOTg1ODQ5LC0xNDIyMDQ5MDI0LC0xMTU5ODM1MD
 IwLDE4MTEyNzgxNiw2MTU4MDk0NzUsLTEyODgyNjY1MjgsMjA1
