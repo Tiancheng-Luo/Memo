@@ -567,8 +567,35 @@ rpm -e(or --erase) [options] pkg1 ... pkgN  # 参数列表：pkg1 ... pkgN（要
 --rcfile 设置rpmrc文件为  
 --dbpath 设置RPM 资料库存所在的路径为
 ```
+
+### 升级命令
+```bash
+rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
+-h (or --hash) 安装时输出hash记号 (``#'')  
+--oldpackage 允许"升级"到一个老版本  
+--test 只进行升级测试  
+--excludedocs 不安装软件包中的文档文件  
+--includedocs 安装文档  
+--replacepkgs 强制重新安装已经安装的软件包  
+--replacefiles 替换属于其它软件包的文件  
+--force 忽略软件包及文件的冲突  
+--percent 以百分比的形式输出安装的进度  
+--noscripts 不运行预安装和后安装脚本  
+--prefix 将软件包安装到由 指定的路径下  
+--ignorearch 不校验软件包的结构  
+--ignoreos 不检查软件包运行的[操作系统](https://www.baidu.com/s?wd=%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)  
+--nodeps 不检查依赖性关系  
+--ftpproxy 用 作为 FTP代理  
+--ftpport 指定FTP的端口号为  
+通用选项：  
+-v 显示附加信息  
+-vv 显示调试信息  
+--root 让RPM将指定的路径做为"根目录"，这样预安装程序和后安装程序都会安装到这个目录下  
+--rcfile 设置rpmrc文件为  
+--dbpath 设置RPM 资料库存所在的路径为
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTM0OTI4NCw0ODE3NzkyMTAsLTE5Mj
+eyJoaXN0b3J5IjpbMTU0MDQ2MjA1MCw0ODE3NzkyMTAsLTE5Mj
 E0Mzk2MTksLTE5NjU0NzE2OTAsLTE5MjE0Mzk2MTksLTk2MDk4
 NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODExMjc4MT
 YsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4
