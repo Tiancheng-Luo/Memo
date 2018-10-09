@@ -519,10 +519,12 @@ deactivate
 ```bash
 rpm -ivh  # 安装
 rpm -Uvh  # 升级一个包
-rpm -e    #
+rpm -e    # 移走一个包
+--force   # 即使覆盖属于其它包的文件也强迫安装
+--
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYwMzc3NSwtMTkyMTQzOTYxOSwtMT
+eyJoaXN0b3J5IjpbLTU3MTc0MTA1MiwtMTkyMTQzOTYxOSwtMT
 k2NTQ3MTY5MCwtMTkyMTQzOTYxOSwtOTYwOTg1ODQ5LC0xNDIy
 MDQ5MDI0LC0xMTU5ODM1MDIwLDE4MTEyNzgxNiw2MTU4MDk0Nz
 UsLTEyODgyNjY1MjgsMjA1NDcwNzUxNCw5MDg2NDgyOSwtMTI2
