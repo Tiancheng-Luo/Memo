@@ -529,12 +529,35 @@ rpm -qf   # 列出服务器上的一个文件属于哪个RPM 包
 rpm -qil  # 综合qi ql
 rpm -qilp # 列出一个未被安装进系统的RPM包文件中包含有哪些文件
 ```
-
-
-
+### 安装
+```bash
+rpm -i(or --install) [options] file1.rpm ... fileN.rpm
+# 详细选项：  
+-h (或 --hash) 安装时输出hash记号 (``#'')  
+--test 只对安装进行测试，并不实际安装。  
+--percent 以百分比的形式输出安装的进度。  
+--excludedocs 不安装软件包中的文档文件  
+--includedocs 安装文档  
+--replacepkgs 强制重新安装已经安装的软件包  
+--replacefiles 替换属于其它软件包的文件  
+--force 忽略软件包及文件的冲突  
+--noscripts 不运行预安装和后安装脚本  
+--prefix 将软件包安装到由 指定的路径下  
+--ignorearch 不校验软件包的结构  
+--ignoreos 不检查软件包运行的[操作系统](https://www.baidu.com/s?wd=%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)  
+--nodeps 不检查依赖性关系  
+--ftpproxy 用 作为 FTP代理  
+--ftpport 指定FTP的端口号为  
+# 通用选项：  
+-v 显示附加信息  
+-vv 显示调试信息  
+--root 让RPM将指定的路径做为“根目录”，这样预安装程序和后安装程序都会安装到这个目录下  
+--rcfile 设置rpmrc文件为  
+--dbpath 设置RPM 资料库存所在的路径为
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxMjc3OTcwLDQ4MTc3OTIxMCwtMTkyMT
+eyJoaXN0b3J5IjpbOTEyMjUwMjU0LDQ4MTc3OTIxMCwtMTkyMT
 QzOTYxOSwtMTk2NTQ3MTY5MCwtMTkyMTQzOTYxOSwtOTYwOTg1
 ODQ5LC0xNDIyMDQ5MDI0LC0xMTU5ODM1MDIwLDE4MTEyNzgxNi
 w2MTU4MDk0NzUsLTEyODgyNjY1MjgsMjA1NDcwNzUxNCw5MDg2
