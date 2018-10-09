@@ -660,12 +660,21 @@ rpm -K(or --checksig) [options] file1.rpm ... fileN.rpm
 --help 显示帮助文件
 --version 显示RPM的当前版本
 ```
+
+## 磁盘
+```bash
+quotaon [-aguv][文件系统...]
+-a 开启在/ect/fstab文件里，有加入quota设置的分区的空间限制。
+-g 开启群组的磁盘空间限制。
+-u 开启用户的磁盘空间限制。
+-v 显示指令执行过程。
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTE5NzMwMCw0ODE3NzkyMTAsLTE5Mj
-E0Mzk2MTksLTE5NjU0NzE2OTAsLTE5MjE0Mzk2MTksLTk2MDk4
-NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODExMjc4MT
-YsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4
-NjQ4MjksLTEyNjEzNjk0MCwzMDcxMTk5MDUsMTMyOTE5MTA2MC
-wtMTc0NTAyMTYwNCw5OTIxNzI5MzIsLTEwNDQwNTM5MjQsLTM2
-NDgyNTMxMV19
+eyJoaXN0b3J5IjpbLTc3NTE4ODg5MSwtNjI1MTk3MzAwLDQ4MT
+c3OTIxMCwtMTkyMTQzOTYxOSwtMTk2NTQ3MTY5MCwtMTkyMTQz
+OTYxOSwtOTYwOTg1ODQ5LC0xNDIyMDQ5MDI0LC0xMTU5ODM1MD
+IwLDE4MTEyNzgxNiw2MTU4MDk0NzUsLTEyODgyNjY1MjgsMjA1
+NDcwNzUxNCw5MDg2NDgyOSwtMTI2MTM2OTQwLDMwNzExOTkwNS
+wxMzI5MTkxMDYwLC0xNzQ1MDIxNjA0LDk5MjE3MjkzMiwtMTA0
+NDA1MzkyNF19
 -->
