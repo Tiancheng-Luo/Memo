@@ -557,7 +557,8 @@ rpm -i(or --install) [options] file1.rpm ... fileN.rpm
 ```
 ### 删除命令  
 ```bash
-rpm -e(or --erase) [options] pkg1 ... pkgN  # 参数列表：pkg1 ... pkgN（要删除的软件包）  
+rpm -e(or --erase) [options] pkg1 ... pkgN  # 参数列表：pkg1 ... pkgN（要删除的软件包）
+# 选项   
 --test 只执行删除的测试  
 --noscripts 不运行预安装和后安装脚本程序  
 --nodeps 不检查依赖性  
@@ -571,7 +572,8 @@ rpm -e(or --erase) [options] pkg1 ... pkgN  # 参数列表：pkg1 ... pkgN（要
 ### 升级命令
 ```bash
 rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
--h (or --hash) 安装时输出hash记号 (``#'')  
+-h (or --hash) 安装时输出hash记号 (``#'') 
+# 选项 
 --oldpackage 允许"升级"到一个老版本  
 --test 只进行升级测试  
 --excludedocs 不安装软件包中的文档文件  
@@ -603,8 +605,8 @@ rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
 -g 查询属于组的软件包
 --whatprovides 查询提供了 功能的软件包
 --whatrequires 查询所有需要 功能的软件包
-信息选项：
-显示软件包的全部标识
+# 信息选项：
+# 显示软件包的全部标识
 -i 显示软件包的概要信息
 -l 显示软件包中的文件列表
 -c 显示配置文件列表
@@ -615,7 +617,7 @@ rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
 --dump 显示每个文件的所有已校验信息
 --provides 显示软件包提供的功能
 --requires (or -R) 显示软件包所需的功能
-通用选项：
+# 通用选项：
 -v 显示附加信息
 -vv 显示调试信息
 --root 让RPM将指定的路径做为"根目录"，这样预安装程序和后安装程序都会安装到这个目录下
@@ -630,11 +632,11 @@ rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
 -f 校验所属的软件包
 -a 校验所有的软件包
 -g 校验所有属于组 的软件包
-详细选项：
+# 详细选项：
 --noscripts 不运行校验脚本
 --nodeps 不校验依赖性
 --nofiles 不校验文件属性
-通用选项：
+# 通用选项：
 -v 显示附加信息
 -vv 显示调试信息
 --root 让RPM将指定的路径做为"根目录"，这样预安装程序和后安装程序都会安装到这个目录下
@@ -659,7 +661,7 @@ rpm -K(or --checksig) [options] file1.rpm ... fileN.rpm
 --version 显示RPM的当前版本
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Njg5ODcwNSw0ODE3NzkyMTAsLTE5Mj
+eyJoaXN0b3J5IjpbLTYyNTE5NzMwMCw0ODE3NzkyMTAsLTE5Mj
 E0Mzk2MTksLTE5NjU0NzE2OTAsLTE5MjE0Mzk2MTksLTk2MDk4
 NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODExMjc4MT
 YsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4
