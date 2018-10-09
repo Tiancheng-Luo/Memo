@@ -597,10 +597,66 @@ rpm -U(or --upgrade) [options] file1.rpm ... fileN.rpm
 ### 查询命令
 ```bash
  rpm -q(or --query) [options] pkg1 ... pkgN
- 
+ -p (or ``-'') 查询软件包的文件
+-f 查询属于哪个软件包
+-a 查询所有安装的软件包
+-g 查询属于组的软件包
+--whatprovides 查询提供了 功能的软件包
+--whatrequires 查询所有需要 功能的软件包
+信息选项：
+显示软件包的全部标识
+-i 显示软件包的概要信息
+-l 显示软件包中的文件列表
+-c 显示配置文件列表
+-d 显示文档文件列表
+-s 显示软件包中文件列表并显示每个文件的状态
+--scripts 显示安装、卸载、校验脚本
+--queryformat (or --qf) 以用户指定的方式显示查询信息
+--dump 显示每个文件的所有已校验信息
+--provides 显示软件包提供的功能
+--requires (or -R) 显示软件包所需的功能
+通用选项：
+-v 显示附加信息
+-vv 显示调试信息
+--root 让RPM将指定的路径做为"根目录"，这样预安装程序和后安装程序都会安装到这个目录下
+--rcfile 设置rpmrc文件为
+--dbpath 设置RPM 资料库存所在的路径为
+(5) 校验已安装的软件包
+命令格式： # rpm -V(or --verify, or -y) [options]
+参数列表：pkg1 ... pkgN （将要校验的软件包名）
+软件包选项：
+-p 校验包文件
+-f 校验所属的软件包
+-a 校验所有的软件包
+-g 校验所有属于组 的软件包
+详细选项：
+--noscripts 不运行校验脚本
+--nodeps 不校验依赖性
+--nofiles 不校验文件属性
+通用选项：
+-v 显示附加信息
+-vv 显示调试信息
+--root 让RPM将指定的路径做为"根目录"，这样预安装程序和后安装程序都会安装到这个目录下
+--rcfile 设置rpmrc文件为
+--dbpath 设置RPM 资料库存所在的路径为
+(6) 校验软件包中的文件
+语法：# rpm -K(or --checksig) [options] file1.rpm ... fileN.rpm
+参数：file1.rpm ... fileN.rpm （软件包的文件名）
+详细选项：
+--nopgp 不校验PGP签名
+通用选项：
+-v 显示附加信息
+-vv 显示调试信息
+--rcfile 设置rpmrc文件为
+(7) 其它参数选项
+--rebuilddb 重建RPM资料库
+--initdb 创建一个新的RPM资料库
+--quiet 尽可能的减少输出
+--help 显示帮助文件
+--version 显示RPM的当前版本
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTc3MTgyMCw0ODE3NzkyMTAsLTE5Mj
+eyJoaXN0b3J5IjpbMTYxNjI5NjAxNCw0ODE3NzkyMTAsLTE5Mj
 E0Mzk2MTksLTE5NjU0NzE2OTAsLTE5MjE0Mzk2MTksLTk2MDk4
 NTg0OSwtMTQyMjA0OTAyNCwtMTE1OTgzNTAyMCwxODExMjc4MT
 YsNjE1ODA5NDc1LC0xMjg4MjY2NTI4LDIwNTQ3MDc1MTQsOTA4
