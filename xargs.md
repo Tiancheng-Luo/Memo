@@ -53,8 +53,25 @@ EXAMPLES
 	find /tmp -name core -type f -print0 | xargs -0 /bin/rm -f
 
 	 find /tmp -depth -name core -type f -delete
+find /tmp -depth -name core -type f -delete
+
+       Find files named core in or below the directory /tmp and  delete  them,
+       but more efficiently than in the previous example (because we avoid the
+       need to use fork(2) and exec(2) to launch rm and we don't need the ex‐
+       tra xargs process).
+
+       cut -d: -f1 < /etc/passwd | sort | xargs echo
+
+       Generates a compact listing of all the users on the system.
+
+       xargs sh -c 'emacs "$@" < /dev/tty' emacs
+
+       Launches  the  minimum  number of copies of Emacs needed, one after the
+       other, to edit the files listed on xargs' standard input.  This example
+       achieves the same effect as BSD's -o option, but in a more flexible and
+       portable way.
 
 ritten with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjEyNzIyOF19
+eyJoaXN0b3J5IjpbMTkyODA4MzAxNiwtODM2MTI3MjI4XX0=
 -->
