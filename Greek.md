@@ -1,0 +1,116 @@
+
+字母名称
+国际音标
+大写字母
+小写字母
+字母名称
+国际音标
+大写字母
+小写字母
+alpha
+/'ælfə/	
+Α
+α
+nu
+/nju:/	
+Ν
+ν
+beta
+/'bi:tə/
+或 /'beɪtə/
+Β
+β
+xi
+希腊 /ksi/；
+英美 /ˈzaɪ/ 或 /ˈksaɪ/
+Ξ
+ξ
+gamma
+/'gæmə/	
+Γ
+γ
+omicron
+/əuˈmaikrən/
+或 /ˈɑmɪˌkrɑn/
+Ο
+ο
+delta
+/'deltə/	
+Δ
+δ
+pi
+/paɪ/	
+Π
+π
+epsilon
+/'epsɪlɒn/	
+Ε
+ε
+rho
+/rəʊ/	
+Ρ
+ρ
+zeta
+/'zi:tə/	
+Ζ
+ζ
+sigma
+/'sɪɡmə/	
+Σ
+σ ς
+eta
+/'i:tə/	
+Η
+η
+tau
+/tɔ:/ 或 /taʊ/
+Τ
+τ
+theta
+/'θi:tə/	
+Θ
+θ
+upsilon
+/ˈipsilon/
+或 /ˈʌpsɨlɒn/
+Υ
+υ
+iota
+/aɪ'əʊtə/	
+Ι
+ι ℩
+phi
+/faɪ/	
+Φ
+φ
+kappa
+/'kæpə/	
+Κ
+κ
+chi
+/kaɪ/	
+Χ
+χ
+lambda
+/'læmdə/	
+Λ
+λ
+psi
+/psaɪ/	
+Ψ
+ψ
+mu
+/mju:/	
+Μ
+μ
+omega
+/'əʊmɪɡə/
+或 /oʊ'meɡə/
+Ω
+ω
+
+
+> Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTExODMxNDczMTRdfQ==
+-->
