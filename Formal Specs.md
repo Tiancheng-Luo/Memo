@@ -89,8 +89,11 @@ $P=1-\frac{1}{100!}\sum_{k=51}^{100}\binom{100}{k}(k-1)!(100-k)!=1-\sum_{k=51}^{
 其中，Hn 代表调和数（[Harmonic Number](http://en.wikipedia.org/wiki/Harmonic_number)）。虽然调和数没有精确的公式，但是我们知道调和数和自然对数有着密切的联系[5]，那么我们就可以用自然对数来近似
 $P \approx 1-(\ln {100} - \ln{50}) = 1 - ln {2} \approx 0.306$ 
 $\frac{k!}{100!(100-k)!}$
+
+Solution: The order of a permutation is the least common multiple of the lengths of the disjoint cycles in its cycle decomposition
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk4MzEwODUsLTE3MzMxMDcyNDksLT
-UyMzQyNTIyNSwtMTUwNDc2OTE0Nyw5OTY4OTE3ODRdfQ==
+eyJoaXN0b3J5IjpbMTUwMDMyODI5MCwtMTMxOTgzMTA4NSwtMT
+czMzEwNzI0OSwtNTIzNDI1MjI1LC0xNTA0NzY5MTQ3LDk5Njg5
+MTc4NF19
 -->
