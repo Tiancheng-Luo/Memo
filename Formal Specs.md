@@ -84,9 +84,10 @@ int test_perm(int *a, int n)
 }
 ```
 
-
+$P=1-\frac{1}{100!}\sum_{k=51}^{100}\binom{100}{k}(k-1)!(100-k)!=1-\sum_{k=51}^{100} \frac{1}{k}=1-(H_{100}-H_{50})$
+$P
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2NzMwNDI3LC01MjM0MjUyMjUsLTE1MD
+eyJoaXN0b3J5IjpbODYwMzQ5ODY2LC01MjM0MjUyMjUsLTE1MD
 Q3NjkxNDcsOTk2ODkxNzg0XX0=
 -->
