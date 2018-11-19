@@ -90,10 +90,10 @@ $P=1-\frac{1}{100!}\sum_{k=51}^{100}\binom{100}{k}(k-1)!(100-k)!=1-\sum_{k=51}^{
 $P \approx 1-(\ln {100} - \ln{50}) = 1 - ln {2} \approx 0.306$ 
 $\frac{k!}{100!(100-k)!}$
 
-Solution: The order of a permutation is the least common multiple of the lengths of the disjoint cycles in its cycle decomposition
+**Solution: The order of a permutation is the least common multiple of the lengths of the disjoint cycles in its cycle decomposition**
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDMyODI5MCwtMTMxOTgzMTA4NSwtMT
+eyJoaXN0b3J5IjpbMTQ3NjUyODU0NiwtMTMxOTgzMTA4NSwtMT
 czMzEwNzI0OSwtNTIzNDI1MjI1LC0xNTA0NzY5MTQ3LDk5Njg5
 MTc4NF19
 -->
