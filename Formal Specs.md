@@ -39,10 +39,13 @@ $(134)  = (12)(34)(24)(12)$
 
 问题
 ```
-给一个 n 长的数组，判断它是否为一个 1, 2, ..., n 的全排列，要求在线性时间，常数空间内实现。
+给一个 n 长的数组，判断它是否为一个 1, 2, ..., n 的全排列，
+要求在线性时间，常数空间内实现。
 ```
 ```
-每个全排列都可以视为 1, 2, ..., n 上的一个置换。问题就转化为检测该数组是不是一个 1, 2, ..., n 的置换。由本文开头提到的定理可知，我们只需要检查该置换是不是由不相交的轮换构成的即可。
+每个全排列都可以视为 1, 2, ..., n 上的一个置换。
+问题就转化为检测该数组是不是一个 1, 2, ..., n 的置换。
+由本文开头提到的定理可知，我们只需要检查该置换是不是由不相交的轮换构成的即可。
 ```
 ```c
 int test_perm(int *a, int n)
@@ -76,6 +79,6 @@ int test_perm(int *a, int n)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3NDcyNTg1LC0xNTA0NzY5MTQ3LDk5Nj
-g5MTc4NF19
+eyJoaXN0b3J5IjpbLTUyMzQyNTIyNSwtMTUwNDc2OTE0Nyw5OT
+Y4OTE3ODRdfQ==
 -->
