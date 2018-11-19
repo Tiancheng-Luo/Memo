@@ -37,7 +37,7 @@ $(134)  = (12)(34)(24)(12)$
 
 2. $\neg, \to, \gets$
 
-问题
+[问题](http://blog.sina.com.cn/s/blog_6be26cc7010115hg.html)
 ```
 给一个 n 长的数组，判断它是否为一个 1, 2, ..., n 的全排列，
 要求在线性时间，常数空间内实现。
@@ -46,6 +46,14 @@ $(134)  = (12)(34)(24)(12)$
 每个全排列都可以视为 1, 2, ..., n 上的一个置换。
 问题就转化为检测该数组是不是一个 1, 2, ..., n 的置换。
 由本文开头提到的定理可知，我们只需要检查该置换是不是由不相交的轮换构成的即可。
+
+如何保证检查的高效以及所有轮换都不相交呢？
+我们每次检查完一个数，就将它置负，这样遇到负值，循环就终止了。
+如果终止前检查的那个数与起始的数相同，那么我们就发现了一个轮换，否则它就不是一个轮换，说明P不是一个置换。
+由于检查过的轮换中的数字都被置为负值，所以第二个轮换肯定不会与第一个轮换相交。
+如果到最后所有的数都被置为负值，且循环正常终止，那么说明它们都在不相交的轮换里，那么P 就是一个置换。
+
+如果想要查找过程不影响最终数组的值，到最后把所有置负的元素都重新置正即可。
 ```
 ```c
 int test_perm(int *a, int n)
@@ -79,6 +87,6 @@ int test_perm(int *a, int n)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzQyNTIyNSwtMTUwNDc2OTE0Nyw5OT
-Y4OTE3ODRdfQ==
+eyJoaXN0b3J5IjpbNzY2NzMwNDI3LC01MjM0MjUyMjUsLTE1MD
+Q3NjkxNDcsOTk2ODkxNzg0XX0=
 -->
