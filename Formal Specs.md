@@ -85,9 +85,9 @@ int test_perm(int *a, int n)
 ```
 
 $P=1-\frac{1}{100!}\sum_{k=51}^{100}\binom{100}{k}(k-1)!(100-k)!=1-\sum_{k=51}^{100} \frac{1}{k}=1-(H_{100}-H_{50})$
-$P \approx 1-(\ln (100)$ - 
+$P \approx 1-(\ln {100} - \ln{50}) = 1 - ln {2} \approx 0.306$ 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4NzAwODQzLC01MjM0MjUyMjUsLTE1MD
-Q3NjkxNDcsOTk2ODkxNzg0XX0=
+eyJoaXN0b3J5IjpbMjA3NTU1OTI2NiwtNTIzNDI1MjI1LC0xNT
+A0NzY5MTQ3LDk5Njg5MTc4NF19
 -->
