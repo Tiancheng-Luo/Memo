@@ -85,9 +85,10 @@ int test_perm(int *a, int n)
 ```
 
 $P=1-\frac{1}{100!}\sum_{k=51}^{100}\binom{100}{k}(k-1)!(100-k)!=1-\sum_{k=51}^{100} \frac{1}{k}=1-(H_{100}-H_{50})$
+其中，Hn 代表调和数（[Harmonic Number](http://en.wikipedia.org/wiki/Harmonic_number)）。虽然调和数没有精确的公式，但是我们知道调和数和自然对数有着密切的联系[5]，那么我们就可以用自然对数来近似
 $P \approx 1-(\ln {100} - \ln{50}) = 1 - ln {2} \approx 0.306$ 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTU1OTI2NiwtNTIzNDI1MjI1LC0xNT
-A0NzY5MTQ3LDk5Njg5MTc4NF19
+eyJoaXN0b3J5IjpbLTE3MzMxMDcyNDksLTUyMzQyNTIyNSwtMT
+UwNDc2OTE0Nyw5OTY4OTE3ODRdfQ==
 -->
