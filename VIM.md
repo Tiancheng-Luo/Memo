@@ -3,7 +3,15 @@
 1 <C-G> 显示全部路径
 It seems `C-g` is default for `0C-g`, and `2C-g` shows **buffer** index number (starting from 1) as well in addition.
 
+register %里是文件名
+```
+:echo @%                |" directory/name of file
+:echo expand('%:t')     |" name of file ('tail')
+:echo expand('%:p')     |" full path
+:echo expand('%:p:h')   |" directory containing file ('head')
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1NTE5MzEzLDQ0NzYyODEwNV19
+eyJoaXN0b3J5IjpbMTUzMjMyODk1MiwzODU1MTkzMTMsNDQ3Nj
+I4MTA1XX0=
 -->
