@@ -1,4 +1,5 @@
 
+命令行:f
 <C-G> 显示当前buffer相对于当前路径的Path
 1 <C-G> 显示全部路径
 It seems `C-g` is default for `0C-g`, and `2C-g` shows **buffer** index number (starting from 1) as well in addition.
@@ -10,8 +11,9 @@ register %里是文件名
 :echo expand('%:p')     |" full path
 :echo expand('%:p:h')   |" directory containing file ('head')
 ```
+In insert mode, type Ctrl-r then % to insert the name of the current file.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjMyODk1MiwzODU1MTkzMTMsNDQ3Nj
+eyJoaXN0b3J5IjpbMjExMzgyMjI2OSwzODU1MTkzMTMsNDQ3Nj
 I4MTA1XX0=
 -->
