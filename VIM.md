@@ -14,7 +14,7 @@ register %里是文件名
 :echo expand('%:p:h')   |" directory containing file ('head')
 ```
 
-statusline增加状态:
+statusline增加文件路径状态:
 ```
 set laststatus=2
 set statusline+=%F
@@ -22,6 +22,6 @@ set statusline+=%F
 In insert mode, type Ctrl-r then % to insert the name of the current file.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTY5MDU5OSwtMTA3MTM0Mjg1OCwzOD
+eyJoaXN0b3J5IjpbLTMwMDI4OTEyMywtMTA3MTM0Mjg1OCwzOD
 U1MTkzMTMsNDQ3NjI4MTA1XX0=
 -->
