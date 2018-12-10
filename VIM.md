@@ -1,4 +1,4 @@
-### 显示命令路径
+### 显示文件路径
 https://vi.stackexchange.com/questions/104/how-can-i-see-the-full-path-of-the-current-file
 命令行:f
 <C-G> 显示当前buffer相对于当前路径的Path
@@ -16,6 +16,6 @@ register %里是文件名
 In insert mode, type Ctrl-r then % to insert the name of the current file.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDI1OTEzNCwzODU1MTkzMTMsNDQ3Nj
-I4MTA1XX0=
+eyJoaXN0b3J5IjpbLTEwNzEzNDI4NTgsMzg1NTE5MzEzLDQ0Nz
+YyODEwNV19
 -->
