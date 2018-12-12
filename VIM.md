@@ -21,27 +21,21 @@ set statusline+=%F
 ```
 In insert mode, type Ctrl-r then % to insert the name of the current file.
 ### 清空register
+register寄存器里面的内容(除了只读的寄存器:.%#)都是可以清除的.  
+
+通常情况下:  
+0-9寄存器存储的是近n次使用寄存器的内容的缓存,后面再使用9次寄存器就会默认被新的替换掉.没有直接的清空方法,但是可以使用新内容自动覆盖掉.  
+a-z寄存器是具名寄存器,存储的是最后一次使用该名字时存储的内存
 有两种方法。一种是 setreg()。具体来说用：
-
-1
-
 `:call setreg(``'a'``,` `''``)`
-
 可以把 寄存器a 里的内容清空。如果是想清除某几个寄存器的话，这个方法就很好。如果是想清空所有的，用个循环即可，如下：
-
-1
-
-2
-
-3
-
 `for` `c` `in` `range(char2nr(``'a'``), char2nr(``'z'``)) + range(char2nr(``'0'``), char2nr(``'9'``))`
 
 `call setreg(nr2char(c),` `""``)`
 
 `endfor`
 
-另一种方法是去删  [vim](https://www.baidu.com/s?wd=vim&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)info 文件。
+另一种方法是去删  [vim](https://www.baidu.com/s?wd=vim&tn=SE_PcZhidaonwhc_ngpagmjz&rsv_dl=gh_pc_zhidao)info 文件。 windows下命名为_viminfo,linux下命名为.viminfo,存储在vim的安装目录或者home路径下
 直接去操纵 viminfo 就可以了。但是由于 vim 加载的时候会加载 viminfo 里的内容，退出的时候会再写入。所以用 vim 来编辑 viminfo 是不行的，删掉的东西会再写回去。因此要退出所有正在运行的 vim，让其把相关的内容先都写到 viminfo 里，然后运行其它编辑器来删除 viminfo 里的有关内容。或者干脆把 viminfo 直接删了也行，相当于清空所有历史记录。
 
 最后，如果你根本不喜欢 vim 在退出之后保留那么多没用的寄存器内容，那么在 .vimrc 里加上（请务必先看一下自己的 .vimrc 里是不是已经有 viminfo 的设置，如果有只需把 < 后面的数字改成 0 就好，其它的不要动）：
@@ -53,6 +47,6 @@ In insert mode, type Ctrl-r then % to insert the name of the current file.
 就可以禁止 vim 退出后保存寄存器的内容。
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTg3OTMsLTMwMDI4OTEyMywtMTA3MT
-M0Mjg1OCwzODU1MTkzMTMsNDQ3NjI4MTA1XX0=
+eyJoaXN0b3J5IjpbMjUxMjM5MTA0LC0zMDAyODkxMjMsLTEwNz
+EzNDI4NTgsMzg1NTE5MzEzLDQ0NzYyODEwNV19
 -->
